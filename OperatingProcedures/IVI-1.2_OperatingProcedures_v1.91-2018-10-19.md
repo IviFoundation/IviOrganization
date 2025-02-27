@@ -20,7 +20,7 @@ No investigation has been made of common law trademark rights in any work.
 
 ## Table of Contents
 
-- - [IVI Foundation Operating Procedures](#ivi-foundation-operating-procedures)
+- [IVI Foundation Operating Procedures](#ivi-foundation-operating-procedures)
   - [Authorship](#authorship)
   - [Warranty](#warranty)
   - [Trademarks](#trademarks)
@@ -56,7 +56,7 @@ No investigation has been made of common law trademark rights in any work.
     - [Summary of Voting Requirements](#summary-of-voting-requirements)
   - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees)
     - [Creating New Class Specifications](#creating-new-class-specifications)
-    - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees-1)
+    - [Deliverables](#deliverables)
   - [Assigning a Revision Number to a Specification](#assigning-a-revision-number-to-a-specification)
     - [First Time Approval of a Specification](#first-time-approval-of-a-specification)
     - [Changes to Approved Specifications](#changes-to-approved-specifications)
@@ -81,67 +81,6 @@ No investigation has been made of common law trademark rights in any work.
   - [Appendix A: Example: IVI Board of Directors E-Vote](#appendix-a-example-ivi-board-of-directors-e-vote)
   - [Appendix B: Example: IVI Technical Committee E-Vote](#appendix-b-example-ivi-technical-committee-e-vote)
   - [Appendix C: Extending Class Specifications](#appendix-c-extending-class-specifications)
-[IVI Foundation Operating Procedures](#ivi-foundation-operating-procedures)
-      - [Abstract](#abstract)
-      - [Authorship](#authorship)
-      - [Warranty](#warranty)
-      - [Trademarks](#trademarks)
-      - [Table of Contents](#table-of-contents)
-      - [IVI Operating Procedures Revision History Preceding Import to Markdown](#ivi-operating-procedures-revision-history-preceding-import-to-markdown)
-  - [Overview of the IVI Operating Procedures](#overview-of-the-ivi-operating-procedures)
-    - [Introduction](#introduction)
-    - [Audience of Specification](#audience-of-specification)
-    - [References](#references)
-  - [Procedures Used When Running Meetings](#procedures-used-when-running-meetings)
-    - [Chairperson and Purpose](#chairperson-and-purpose)
-    - [Phone Meetings](#phone-meetings)
-    - [Notice](#notice)
-    - [Quorum and Voting](#quorum-and-voting)
-    - [General practices](#general-practices)
-      - [IVI Foundation Large Group Meetings](#ivi-foundation-large-group-meetings)
-      - [Chairperson Neutrality](#chairperson-neutrality)
-    - [Distribution Of Documents](#distribution-of-documents)
-      - [Other Supporting Materials](#other-supporting-materials)
-    - [Minutes](#minutes)
-  - [Quorum and General Voting Requirements](#quorum-and-general-voting-requirements)
-    - [Quorum](#quorum)
-    - [Necessary Majority to Pass Various Resolutions](#necessary-majority-to-pass-various-resolutions)
-    - [Conducting Votes Electronically](#conducting-votes-electronically)
-      - [Posing a Resolution Electronically](#posing-a-resolution-electronically)
-      - [Form of the Electronic Call for Vote](#form-of-the-electronic-call-for-vote)
-      - [Recording of Resolutions](#recording-of-resolutions)
-      - [Multiple Resolutions](#multiple-resolutions)
-  - [Procedures Regarding Creating a New Specification](#procedures-regarding-creating-a-new-specification)
-    - [Proposing New Technology](#proposing-new-technology)
-    - [Creating the Specification](#creating-the-specification)
-    - [Adopting a New Technical Specification](#adopting-a-new-technical-specification)
-    - [Summary of Voting Requirements](#summary-of-voting-requirements)
-  - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees)
-    - [Creating New Class Specifications](#creating-new-class-specifications)
-    - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees-1)
-  - [Assigning a Revision Number to a Specification](#assigning-a-revision-number-to-a-specification)
-    - [First Time Approval of a Specification](#first-time-approval-of-a-specification)
-    - [Changes to Approved Specifications](#changes-to-approved-specifications)
-    - [Specifications for Shared Components](#specifications-for-shared-components)
-  - [IVI Standards Generation](#ivi-standards-generation)
-  - [IVI Conformance Disputes Arbitration Process](#ivi-conformance-disputes-arbitration-process)
-    - [Purpose](#purpose)
-    - [Raising concerns](#raising-concerns)
-    - [IVI Foundation Evaluation Process](#ivi-foundation-evaluation-process)
-    - [Arbitration](#arbitration)
-    - [Censure](#censure)
-    - [Closure](#closure)
-  - [Shared Component Management Process](#shared-component-management-process)
-    - [VISA Common Components](#visa-common-components)
-    - [Shared Components Source Code Availability](#shared-components-source-code-availability)
-  - [Procedures Used When Developing Linux Components for VISA](#procedures-used-when-developing-linux-components-for-visa)
-    - [VISA Shared Components for Linux](#visa-shared-components-for-linux)
-      - [IVI Supported Packages](#ivi-supported-packages)
-      - [Source Availability and Modifications ](#source-availability-and-modifications)
-      - [Shared Component Support ](#shared-component-support)
-    - [USBTMC driver](#usbtmc-driver)
-  - [Appendix A: Example: IVI Board of Directors E-Vote](#appendix-a-example-ivi-board-of-directors-e-vote)
-  - [Appendix B: Example: IVI Technical Committee E-Vote](#appendix-b-example-ivi-technical-committee-e-vote)
 
 ## IVI Operating Procedures Revision History Preceding Import to Markdown
 
@@ -509,15 +448,15 @@ The following process shall be followed when adopting a specification:
 | **Table 4‑1** Summary of Voting Requirements |  |  |  |  |  |
 |  |  | **Create a new specification or Working Group** | **Major Change** | **Minor Change** | **Editorial** |
 | **Action Needed to Start Work** | **Build consensus to start work and identify participants** | Yes (During Technical Committee or WG Teleconference) | Yes (During Technical Committee or WG Teleconference) | Yes (During Technical Committee or WG Teleconference) | Yes (Only requires TC chair or current spec owner agreement) |
-|  | **Vote to start work or approve charter of WG** | 2/3 super-majority of TC however at Live Meetings must not have no votes**<sup>†</sup>** | 2/3 super-majority of TC however at Live Meetings must not have no votes **<sup>†</sup>** | N/A | N/A |
+|  | **Vote to start work or approve charter of WG** | 2/3 super-majority of TC however at Live Meetings must not have no votes **see note** | 2/3 super-majority of TC however at Live Meetings must not have no votes **see note** | N/A | N/A |
 |  | **IPR Declaration** | Required from company that submits new IP | Required from company that submits new IP | N/A | N/A |
 | **Call for Final Review** | **Minimum Review Period** | 45 Days | 45 Days | 3 Weeks (or 45 Days if IPR Declaration Required) | 6 Business Days (Email List Server - Document Change & ask for Objections) |
 |  | **IPR Declaration** | 45 Days (overlaps with review period) | 45 Days (overlaps with review period) | 45 Days (IPR at TC Chairman's discretion, overlaps with review period) | N/A |
-| **Final Vote** | **Votes Needed for Passage** | TC Majority**<sup>†</sup>** | TC Majority**<sup>†</sup>** | 2/3 super-majority of TC however at Live Meetings must not have no votes **<sup>†</sup>** | N/A |
+| **Final Vote** | **Votes Needed for Passage** | TC Majority **see note** | TC Majority **see note** | 2/3 super-majority of TC however at Live Meetings must not have no votes  **see note** | N/A |
 |  | **IPR Declaration** | 30 Days (At any member's request) | 30 Days (At any member's request) | 30 Days (At any member's request) | N/A |
 |  | **Document Action in Technical Committee Meeting Minutes** | Yes | Yes | Yes | Yes |
 
-**<sup>†</sup>** See section 3.2 regarding special conditions for TC majority and super-majority requirements for electronic and live meetings.
+**NOTE:** See section 3.2 regarding special conditions for TC majority and super-majority requirements for electronic and live meetings.
 
 ## Required Deliverables from Class Committees
 
@@ -540,7 +479,7 @@ New classes also need to define help context IDs that do not overlap with existi
 
 Error and warning numbers also need to be uniquely defined for each class. New error and warning numbers are defined by incrementing sequentially from a base number assigned to the class. IVI-COM and IVI-C have separate error and warning bases. The error and warning bases for IVI-COM and IVI-C are define in IVI 3.1 section 5.6. New classes need to update this table with the four new base values.
 
-### Required Deliverables from Class Committees
+### Deliverables
 
 In order to complete a new class specification, the following need to be provided by the class sub-committee before the final vote is called for:
 
