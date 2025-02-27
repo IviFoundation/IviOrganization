@@ -229,79 +229,20 @@ The following table describes the criteria needed for a quorum at various IVI Fo
 
 The following table describes the criteria needed for a vote to pass on various types of resolutions. Note that “Live Meetings” include both face-face meetings and meetings conducted telephonically. Electronic votes are those that are conducted via e-mail.
 
-NOTE: All decisions are based on the number of “Yes” votes cast in comparison with the total eligible. *This eliminates the traditional interpretation of an “abstain” as supporting the majority that express a preference*.
+**NOTES:**
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 25%" />
-<col style="width: 26%" />
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th colspan="4" style="text-align: center;">Table 3‑2. Number of Votes
-Required to Pass a Resolution</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th><strong>Body Taking Action</strong></th>
-<td><strong>Type of Action</strong></td>
-<td><strong>Live Meetings</strong></td>
-<td><strong>Electronic</strong></td>
-</tr>
-<tr>
-<th>Technical Committee</th>
-<td>General actions</td>
-<td>&gt;50% of those present<strong><sup>†</sup></strong></td>
-<td>&gt;50% of voting members</td>
-</tr>
-<tr>
-<th>Technical Committee</th>
-<td>Initiate new technical work</td>
-<td>2/3 of voting members present without any no-votes</td>
-<td>2/3 of voting members</td>
-</tr>
-<tr>
-<th>Technical Committee</th>
-<td>Change a specification</td>
-<td>2/3 of voting members present without any no-votes</td>
-<td>2/3 of voting members</td>
-</tr>
-<tr>
-<th>Technical Committee</th>
-<td>Approve a new or modified piece of technical work</td>
-<td>&gt;50% of those present<strong><sup>†</sup></strong></td>
-<td>&gt;50% of voting members</td>
-</tr>
-<tr>
-<th>Board of Directors</th>
-<td>General actions</td>
-<td>&gt;50% of those present<strong><sup>†</sup></strong></td>
-<td>&gt;50% entire BoD</td>
-</tr>
-<tr>
-<th><p>Board of Directors</p>
-<p>or</p>
-<p>Annual Meeting (Voting Membership)</p></th>
-<td>Change by-laws or change the number of Directors</td>
-<td>2/3 of those present<strong><sup>†</sup></strong></td>
-<td>2/3 of those entitled to vote</td>
-</tr>
-<tr>
-<th><p>Technical Committee</p>
-<p>or</p>
-<p>Board of Directors</p></th>
-<td>Any resolution that modifies the rules of order or prevents some
-other resolution from being considered</td>
-<td>2/3 of voting members</td>
-<td>2/3 of voting members</td>
-</tr>
-</tbody>
-</table>
+- All decisions are based on the number of “Yes” votes cast in comparison with the total eligible. *This eliminates the traditional interpretation of an “abstain” as supporting the majority that express a preference*.
+- All actions require a quorum is present at a properly convened meeting.
 
-> **†** *Provided a quorum is present at a properly convened meeting.*
+| Body Taking Action | Type of Action | Live Meetings | Electronic |
+| --- | --- | --- |  --- |
+| **Technical Committee** | General actions | >50% of those present | >50% of voting members |
+| **Technical Committee** | Initiate new technical work | 2/3 of voting members present without any no votes | 2/3 of voting members |
+| **Technical Committee** | Change a specification | 2/3 of voting members present without any no votes | 2/3 of voting members present |
+| **Technical Committee** | Approve a new or modified piece of technical work | >50% of those present | >50% of voting members |
+| **Board of Directors** | General actions | >50% of those present | >50% of voting members |
+| **Board of Directors or Annual Meeting** | Change by-laws or change the number of Directors | 2/3 of those present  | 2/3 of those entitled to vote |
+| **Technical Committee or Board of Directors** | Any resolution that modifies the rules of order or prevents some other resolution from being considered | 2/3 of voting members | 2/3 of voting members |
 
 Note that for resolutions that require 2/3 of those present that if 30 (or 29 or 28) members are present and 20 vote in favor of a resolution it passes.
 
