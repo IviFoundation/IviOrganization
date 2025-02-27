@@ -21,12 +21,11 @@ No investigation has been made of common law trademark rights in any work.
 ## Table of Contents
 
 - [IVI Foundation Operating Procedures](#ivi-foundation-operating-procedures)
-      - [Abstract](#abstract)
-      - [Authorship](#authorship)
-      - [Warranty](#warranty)
-      - [Trademarks](#trademarks)
-      - [Table of Contents](#table-of-contents)
-      - [IVI Operating Procedures Revision History Preceding Import to Markdown](#ivi-operating-procedures-revision-history-preceding-import-to-markdown)
+  - [Authorship](#authorship)
+  - [Warranty](#warranty)
+  - [Trademarks](#trademarks)
+  - [Table of Contents](#table-of-contents)
+  - [IVI Operating Procedures Revision History Preceding Import to Markdown](#ivi-operating-procedures-revision-history-preceding-import-to-markdown)
   - [Overview of the IVI Operating Procedures](#overview-of-the-ivi-operating-procedures)
     - [Introduction](#introduction)
     - [Audience of Specification](#audience-of-specification)
@@ -57,7 +56,7 @@ No investigation has been made of common law trademark rights in any work.
     - [Summary of Voting Requirements](#summary-of-voting-requirements)
   - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees)
     - [Creating New Class Specifications](#creating-new-class-specifications)
-    - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees-1)
+    - [Deliverables](#deliverables)
   - [Assigning a Revision Number to a Specification](#assigning-a-revision-number-to-a-specification)
     - [First Time Approval of a Specification](#first-time-approval-of-a-specification)
     - [Changes to Approved Specifications](#changes-to-approved-specifications)
@@ -76,11 +75,12 @@ No investigation has been made of common law trademark rights in any work.
   - [Procedures Used When Developing Linux Components for VISA](#procedures-used-when-developing-linux-components-for-visa)
     - [VISA Shared Components for Linux](#visa-shared-components-for-linux)
       - [IVI Supported Packages](#ivi-supported-packages)
-      - [Source Availability and Modifications ](#source-availability-and-modifications)
-      - [Shared Component Support ](#shared-component-support)
+      - [Source Availability and Modifications](#source-availability-and-modifications)
+      - [Shared Component Support](#shared-component-support)
     - [USBTMC driver](#usbtmc-driver)
   - [Appendix A: Example: IVI Board of Directors E-Vote](#appendix-a-example-ivi-board-of-directors-e-vote)
   - [Appendix B: Example: IVI Technical Committee E-Vote](#appendix-b-example-ivi-technical-committee-e-vote)
+  - [Appendix C: Extending Class Specifications](#appendix-c-extending-class-specifications)
 
 ## IVI Operating Procedures Revision History Preceding Import to Markdown
 
@@ -229,79 +229,20 @@ The following table describes the criteria needed for a quorum at various IVI Fo
 
 The following table describes the criteria needed for a vote to pass on various types of resolutions. Note that “Live Meetings” include both face-face meetings and meetings conducted telephonically. Electronic votes are those that are conducted via e-mail.
 
-NOTE: All decisions are based on the number of “Yes” votes cast in comparison with the total eligible. *This eliminates the traditional interpretation of an “abstain” as supporting the majority that express a preference*.
+**NOTES:**
 
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 25%" />
-<col style="width: 26%" />
-<col style="width: 27%" />
-</colgroup>
-<thead>
-<tr>
-<th colspan="4" style="text-align: center;">Table 3‑2. Number of Votes
-Required to Pass a Resolution</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th><strong>Body Taking Action</strong></th>
-<td><strong>Type of Action</strong></td>
-<td><strong>Live Meetings</strong></td>
-<td><strong>Electronic</strong></td>
-</tr>
-<tr>
-<th>Technical Committee</th>
-<td>General actions</td>
-<td>&gt;50% of those present<strong><sup>†</sup></strong></td>
-<td>&gt;50% of voting members</td>
-</tr>
-<tr>
-<th>Technical Committee</th>
-<td>Initiate new technical work</td>
-<td>2/3 of voting members present without any no-votes</td>
-<td>2/3 of voting members</td>
-</tr>
-<tr>
-<th>Technical Committee</th>
-<td>Change a specification</td>
-<td>2/3 of voting members present without any no-votes</td>
-<td>2/3 of voting members</td>
-</tr>
-<tr>
-<th>Technical Committee</th>
-<td>Approve a new or modified piece of technical work</td>
-<td>&gt;50% of those present<strong><sup>†</sup></strong></td>
-<td>&gt;50% of voting members</td>
-</tr>
-<tr>
-<th>Board of Directors</th>
-<td>General actions</td>
-<td>&gt;50% of those present<strong><sup>†</sup></strong></td>
-<td>&gt;50% entire BoD</td>
-</tr>
-<tr>
-<th><p>Board of Directors</p>
-<p>or</p>
-<p>Annual Meeting (Voting Membership)</p></th>
-<td>Change by-laws or change the number of Directors</td>
-<td>2/3 of those present<strong><sup>†</sup></strong></td>
-<td>2/3 of those entitled to vote</td>
-</tr>
-<tr>
-<th><p>Technical Committee</p>
-<p>or</p>
-<p>Board of Directors</p></th>
-<td>Any resolution that modifies the rules of order or prevents some
-other resolution from being considered</td>
-<td>2/3 of voting members</td>
-<td>2/3 of voting members</td>
-</tr>
-</tbody>
-</table>
+- All decisions are based on the number of “Yes” votes cast in comparison with the total eligible. *This eliminates the traditional interpretation of an “abstain” as supporting the majority that express a preference*.
+- All actions require a quorum is present at a properly convened meeting.
 
-> **†** *Provided a quorum is present at a properly convened meeting.*
+| Body Taking Action | Type of Action | Live Meetings | Electronic |
+| --- | --- | --- |  --- |
+| **Technical Committee** | General actions | >50% of those present | >50% of voting members |
+| **Technical Committee** | Initiate new technical work | 2/3 of voting members present without any no votes | 2/3 of voting members |
+| **Technical Committee** | Change a specification | 2/3 of voting members present without any no votes | 2/3 of voting members present |
+| **Technical Committee** | Approve a new or modified piece of technical work | >50% of those present | >50% of voting members |
+| **Board of Directors** | General actions | >50% of those present | >50% of voting members |
+| **Board of Directors or Annual Meeting** | Change by-laws or change the number of Directors | 2/3 of those present  | 2/3 of those entitled to vote |
+| **Technical Committee or Board of Directors** | Any resolution that modifies the rules of order or prevents some other resolution from being considered | 2/3 of voting members | 2/3 of voting members |
 
 Note that for resolutions that require 2/3 of those present that if 30 (or 29 or 28) members are present and 20 vote in favor of a resolution it passes.
 
@@ -329,9 +270,7 @@ Since the electronic medium does not provide a convenient way to introduce a mot
 
     4. Once electronic discussion has come to a close, as evidenced by a lack of e-mail traffic, the chairperson should call for a vote.
 
-> Throughout the discussion process, all members authorized to vote on
-> the resolution shall be included on any official electronic
-> correspondence regarding the resolution.
+  Throughout the discussion process, all members authorized to vote onthe resolution shall be included on any official electroniccorrespondence regarding the resolution.
 
 The process for members posing resolutions is by necessity lengthy and awkward. Therefore this process should be avoided. Where practical, it is preferable to form subcommittees to meet telephonically and following process two above.
 
@@ -407,7 +346,7 @@ The following process shall be followed when adopting a specification:
 
     When the work is initiated, anyone submitting technology, techniques, or approaches for the basis of all or part of the new specification is required to complete an IP disclosure, substantially equivalent to the example included in Appendix A of the IVI IP Policy.
 
-1. Creation of draft
+2. Creation of draft
 
    The working group conducts meetings as appropriate to prepare a draft. Note that this work is all conducted under the disclosure requirement of the IVI IP Policy. While the work is conducted, working group members are reminded of the IVI IP Policy and the requirement that participants disclose and IP they are aware of. This is done at the beginning of technical committee meetings.
 
@@ -425,7 +364,7 @@ The following process shall be followed when adopting a specification:
 
    The working group then addresses the comments and within its discretion accepts or rejects each of them. Once the specification draft has been revised, the working group chairperson and the Technical Committee chairperson shall cooperate to determine whether a new review period is required, and if so repeat the process outlined above.
 
-1. Vote by Technical Committee and Additional IPR Declaration
+5. Vote by Technical Committee and Additional IPR Declaration
 
    If the Technical Committee Chairperson feels that changes to the draft are sufficient to warrant an additional IP declaration, or if any member requests an additional IP declaration, an IP declaration per Appendix B of the IP Policy may be required at this time.
 
@@ -433,7 +372,7 @@ The following process shall be followed when adopting a specification:
 
    The outcome of the vote is determined according to the voting procedures set forth in section 3.2 (Necessary Majority to Pass Various Resolutions) above for approving a new piece of work, including any requirements on quorums and voting eligibility. If there are any intellectual property licensing issues that relate to the specification, they are to be resolved, and the appropriate licenses obtained prior to the posting of the completed specification.
 
-1. Collection of licenses
+6. Collection of licenses
 
    If a member is to license its IPR to the IVI Foundation, the appropriate **Generic License Agreement (With** **License Fee** or **No** **Licence Fee)** shall be obtained from the IVI Foundation offices and adapted to the specific IPR being granted and the license fees agreed upon.
 
@@ -450,15 +389,15 @@ The following process shall be followed when adopting a specification:
 | **Table 4‑1** Summary of Voting Requirements |  |  |  |  |  |
 |  |  | **Create a new specification or Working Group** | **Major Change** | **Minor Change** | **Editorial** |
 | **Action Needed to Start Work** | **Build consensus to start work and identify participants** | Yes (During Technical Committee or WG Teleconference) | Yes (During Technical Committee or WG Teleconference) | Yes (During Technical Committee or WG Teleconference) | Yes (Only requires TC chair or current spec owner agreement) |
-|  | **Vote to start work or approve charter of WG** | 2/3 super-majority of TC however at Live Meetings must not have no votes**<sup>†</sup>** | 2/3 super-majority of TC however at Live Meetings must not have no votes **<sup>†</sup>** | N/A | N/A |
+|  | **Vote to start work or approve charter of WG** | 2/3 super-majority of TC however at Live Meetings must not have no votes **see note** | 2/3 super-majority of TC however at Live Meetings must not have no votes **see note** | N/A | N/A |
 |  | **IPR Declaration** | Required from company that submits new IP | Required from company that submits new IP | N/A | N/A |
 | **Call for Final Review** | **Minimum Review Period** | 45 Days | 45 Days | 3 Weeks (or 45 Days if IPR Declaration Required) | 6 Business Days (Email List Server - Document Change & ask for Objections) |
 |  | **IPR Declaration** | 45 Days (overlaps with review period) | 45 Days (overlaps with review period) | 45 Days (IPR at TC Chairman's discretion, overlaps with review period) | N/A |
-| **Final Vote** | **Votes Needed for Passage** | TC Majority**<sup>†</sup>** | TC Majority**<sup>†</sup>** | 2/3 super-majority of TC however at Live Meetings must not have no votes **<sup>†</sup>** | N/A |
+| **Final Vote** | **Votes Needed for Passage** | TC Majority **see note** | TC Majority **see note** | 2/3 super-majority of TC however at Live Meetings must not have no votes  **see note** | N/A |
 |  | **IPR Declaration** | 30 Days (At any member's request) | 30 Days (At any member's request) | 30 Days (At any member's request) | N/A |
 |  | **Document Action in Technical Committee Meeting Minutes** | Yes | Yes | Yes | Yes |
 
-**<sup>†</sup>** See section 3.2 regarding special conditions for TC majority and super-majority requirements for electronic and live meetings.
+**NOTE:** See section 3.2 regarding special conditions for TC majority and super-majority requirements for electronic and live meetings.
 
 ## Required Deliverables from Class Committees
 
@@ -481,40 +420,21 @@ New classes also need to define help context IDs that do not overlap with existi
 
 Error and warning numbers also need to be uniquely defined for each class. New error and warning numbers are defined by incrementing sequentially from a base number assigned to the class. IVI-COM and IVI-C have separate error and warning bases. The error and warning bases for IVI-COM and IVI-C are define in IVI 3.1 section 5.6. New classes need to update this table with the four new base values.
 
-### Required Deliverables from Class Committees
+### Deliverables
 
 In order to complete a new class specification, the following need to be provided by the class sub-committee before the final vote is called for:
 
-> Written Specification The written specification shall be a Microsoft
-> Word file based on the standard foundation boilerplate available in
-> the Operating Procedures section of the IVI Foundation web site
-> Assigning a Revision Number to a Specification
->
-> IDL Files The IDL files that describe the interface to the class from
-> COM. These files are used by the shared components committee to
-> generate a type library. One file contains the interface definition,
-> the other contains the corresponding help strings. *Note that this
-> file shall be equivalent to the corresponding appendix in the
-> specification.*
->
-> Help Files A .chm (including the index – either embedded or as an
-> external .chi file) that provides the standard foundation help. The
-> style of these help files shall be consistent with other IVI help
-> files.
->
-> XML IntelliSense File This is the IntelliSense file that the shared
-> components committee will compile into the Portable Interop Assembly
-> (PIA).
->
-> Web Site Summary A summary of the specification suitable for posting
-> on the IVI Foundation web site as explanatory text for the class
-> specification.
->
-> Visual C## Project This is the .NET artifacts, including the project
-> file, C## source for all interfaces, exceptions, enums, session
-> factory, and any other required source to build the assembly. Note
-> that the XML comments must be included in the source code in a style
-> consistent with existing specifications.
+> **Written Specification:** The written specification shall be a MicrosoftWord file based on the standard foundation boilerplate available inthe Operating Procedures section of the IVI Foundation web siteAssigning a Revision Number to a Specification
+
+> **IDL Files:** The IDL files that describe the interface to the class fromCOM. These files are used by the shared components committee togenerate a type library. One file contains the interface definition,the other contains the corresponding help strings. *Note that thisfile shall be equivalent to the corresponding appendix in thespecification.*
+
+> **Help Files:** A .chm (including the index – either embedded or as anexternal .chi file) that provides the standard foundation help. Thestyle of these help files shall be consistent with other IVI helpfiles.
+
+> **XML IntelliSense File:** This is the IntelliSense file that the sharedcomponents committee will compile into the Portable Interop Assembly(PIA).
+
+> **Web Site Summary:** A summary of the specification suitable for postingon the IVI Foundation web site as explanatory text for the classspecification.
+
+> **Visual C# Project:** This is the .NET artifacts, including the projectfile, C# source for all interfaces, exceptions, enums, sessionfactory, and any other required source to build the assembly. Notethat the XML comments must be included in the source code in a styleconsistent with existing specifications.
 
 ## Assigning a Revision Number to a Specification
 
@@ -568,7 +488,7 @@ For instance, if the latest specification revision in the generation is February
 
 ### Purpose
 
-> Purpose of the process:
+Purpose of the process:
 
 - Provide a way for companies or individuals to raise concerns regarding illegitimate claims of IVI conformance
 
@@ -578,10 +498,7 @@ For instance, if the latest specification revision in the generation is February
 
 ### Raising concerns
 
-> To raise concerns about IVI conformance, a company, or individual
-> should inform the IVI Foundation in writing of the complaint. The
-> paper letter or e-mail should be sent to the IVI Foundation business
-> address. This letter must include:
+To raise concerns about IVI conformance, a company, or individualshould inform the IVI Foundation in writing of the complaint. Thepaper letter or e-mail should be sent to the IVI Foundation businessaddress. This letter must include:
 
 - The driver supplier name, along with contact information for the
   driver supplier
@@ -604,68 +521,23 @@ When the IVI Foundation receives a complaint regarding a driver, it will immedia
 
 ### Arbitration
 
-> This process is invoked when there is a dispute regarding the efficacy
-> of a complaint regarding the compliance of an IVI driver. It is
-> presumed at the outset of this process that a written complaint as
-> described above is available, as well as a written document from the
-> provider of the driver stating why it disputes the complaint.
->
-> In order to resolve the complaint, a Compliance Review Committee will
-> be created, in accordance with IVI Foundation by-laws, to review this
-> complaint. The Compliance Review Committee is a subcommittee of the
-> IVI Technical Committee. The Technical Committee chairman is
-> responsible for creating the Compliance Review Committee and insuring
-> that all the membership of the Technical Committee has an opportunity
-> to volunteer for the Compliance Review Committee. The Technical
-> Committee chairman will initiate this process as soon as is convenient
-> after being notified of the dispute. The membership will be made up of
-> volunteer members from the Technical Committee; they shall elect an
-> impartial chair from their membership. Note that the committee may
-> include both the driver supplier and/or the person or company that
-> initiated the complaint regarding the driver in question.
->
-> The Compliance Review Committee will review the complaint and
-> response. They will then discuss the problem either in person or via
-> phone meeting with the driver supplier. The Compliance Review
-> Committee will then formulate an authoritative opinion regarding the
-> fact of the matter. The committee shall create a document either
-> stating that the driver appears to be in compliance or stating the
-> specific problems with the driver, including references to the
-> appropriate IVI specifications as why the driver in question does not
-> comply. This will be sent to both the driver supplier and the person
-> or company that initiated the complaint.
->
-> If the flaw in the driver is found to be based on a lack of clarity in
-> the specification then the Compliance Review Committee will forward
-> the matter to the Technical Committee and the Technical Committee
-> shall initiate a request to update the specification using defined
-> operating procedures for submitting specification changes.
+This process is invoked when there is a dispute regarding the efficacyof a complaint regarding the compliance of an IVI driver. It ispresumed at the outset of this process that a written complaint asdescribed above is available, as well as a written document from theprovider of the driver stating why it disputes the complaint.
+
+In order to resolve the complaint, a Compliance Review Committee willbe created, in accordance with IVI Foundation by-laws, to review thiscomplaint. The Compliance Review Committee is a subcommittee of theIVI Technical Committee. The Technical Committee chairman isresponsible for creating the Compliance Review Committee and insuringthat all the membership of the Technical Committee has an opportunityto volunteer for the Compliance Review Committee. The TechnicalCommittee chairman will initiate this process as soon as is convenientafter being notified of the dispute. The membership will be made up ofvolunteer members from the Technical Committee; they shall elect animpartial chair from their membership. Note that the committee mayinclude both the driver supplier and/or the person or company thatinitiated the complaint regarding the driver in question.
+
+The Compliance Review Committee will review the complaint andresponse. They will then discuss the problem either in person or viaphone meeting with the driver supplier. The Compliance ReviewCommittee will then formulate an authoritative opinion regarding thefact of the matter. The committee shall create a document eitherstating that the driver appears to be in compliance or stating thespecific problems with the driver, including references to theappropriate IVI specifications as why the driver in question does notcomply. This will be sent to both the driver supplier and the personor company that initiated the complaint.
+
+If the flaw in the driver is found to be based on a lack of clarity inthe specification then the Compliance Review Committee will forwardthe matter to the Technical Committee and the Technical Committeeshall initiate a request to update the specification using definedoperating procedures for submitting specification changes.
 
 If the driver is found to be in compliance, the matter is finished.
 
-> If the driver is found to not be in compliance, and if the driver
-> supplier agrees in writing to remedy the situation, the driver
-> supplier will be given three months from the time they are informed of
-> the problem to remedy the situation (either update the driver or
-> remove claims of conformance).
->
-> If the driver supplier is not satisfied with the written conclusions
-> of the Compliance Review Committee, the driver supplier may summarize
-> the situation in writing to the IVI Board of Directors and request
-> they take action on it. The Board of Directors shall review the
-> findings of the Compliance Review Committee. If it does not agree, a
-> new Compliance Review Committee will be formed to repeat the work of
-> the previous committee. If the Board of Directors is in agreement with
-> the Compliance Review Committee that the driver is falsely claiming
-> compliance to IVI, or falsely using the IVI Foundation logo, the
-> company providing the driver will be given one month to remedy the
-> problem.
+If the driver is found to not be in compliance, and if the driversupplier agrees in writing to remedy the situation, the driversupplier will be given three months from the time they are informed ofthe problem to remedy the situation (either update the driver orremove claims of conformance).
+
+If the driver supplier is not satisfied with the written conclusionsof the Compliance Review Committee, the driver supplier may summarizethe situation in writing to the IVI Board of Directors and requestthey take action on it. The Board of Directors shall review thefindings of the Compliance Review Committee. If it does not agree, anew Compliance Review Committee will be formed to repeat the work ofthe previous committee. If the Board of Directors is in agreement withthe Compliance Review Committee that the driver is falsely claimingcompliance to IVI, or falsely using the IVI Foundation logo, thecompany providing the driver will be given one month to remedy theproblem.
 
 ### Censure
 
-> If the company producing the driver fails to remedy the problem in the
-> prescribed period, the IVI Board of Directors shall take the following
-> actions:
+If the company producing the driver fails to remedy the problem in theprescribed period, the IVI Board of Directors shall take the followingactions:
 
 1. It shall pass a resolution, based on a standard IVI Foundation form, indicating that the driver in not in compliance and the driver supplier has failed to correct it.
 
@@ -673,17 +545,13 @@ If the driver is found to be in compliance, the matter is finished.
 
 3. It shall remove the driver’s registration information from the publicly available IVI website.
 
-> At its discretion, the Board of Directors may also remove the driver
-> supplier from the IVI membership or issue a press release stating the
-> situation with the driver supplier and problems with the driver in
-> question.
+At its discretion, the Board of Directors may also remove the driversupplier from the IVI membership or issue a press release stating thesituation with the driver supplier and problems with the driver inquestion.
 
 ### Closure
 
-> All parties involved shall be notified of the results of the process.
->
-> If the driver supplier subsequently corrects the problem, it may
-> request that the IVI Foundation update its judgment on the driver.
+All parties involved shall be notified of the results of the process.
+
+If the driver supplier subsequently corrects the problem, it mayrequest that the IVI Foundation update its judgment on the driver.
 
 ## Shared Component Management Process
 
@@ -715,74 +583,37 @@ The paragraphs in this section describe the procedures used to develop, distribu
 
 #### IVI Supported Packages
 
-> IVI directly supports several VISA Shared Components for Linux
-> packages that target the most important Linux distributions for test
-> and measurement use. These are available on a members-only IVI
-> Foundation web page for members to access.  Members may redistribute
-> them with their VISA implementations or as needed to customers.
+IVI directly supports several VISA Shared Components for Linuxpackages that target the most important Linux distributions for testand measurement use. These are available on a members-only IVIFoundation web page for members to access.  Members may redistributethem with their VISA implementations or as needed to customers.
 
 #### Source Availability and Modifications
 
-> VISA Shared Components for Linux are covered by the IVI license.
->
-> They are available to all members – bearing in mind that our existing
-> packages should work quite broadly.
->
-> If the IVI Foundation shared component packages do not support a Linux
-> distribution that a vendor would like to support, they may create a
-> new version of the shared components that supports that version.
->
-> If a member needs to modify the source code to support a new Linux
-> distribution, they must propose the changes to the I/O WG and the
-> changes must be approved before they are made publicly available.  The
-> I/O WG will determine how to manage the modified source code in the
-> VISA Shared Components for Linux source code repository.
->
-> Members must contribute any source changes to the IVI Foundation, with
-> the understanding that the source may be used by other members over
-> time.
->
-> Once a member starts distributing a new shared components package,
-> they must contribute the package to the IVI Foundation, so that
-> additional members that choose to support that distribution will be
-> able to ship the same package.
+VISA Shared Components for Linux are covered by the IVI license.
+
+They are available to all members – bearing in mind that our existingpackages should work quite broadly.
+
+If the IVI Foundation shared component packages do not support a Linuxdistribution that a vendor would like to support, they may create anew version of the shared components that supports that version.
+
+If a member needs to modify the source code to support a new Linuxdistribution, they must propose the changes to the I/O WG and thechanges must be approved before they are made publicly available.  TheI/O WG will determine how to manage the modified source code in theVISA Shared Components for Linux source code repository.
+
+Members must contribute any source changes to the IVI Foundation, withthe understanding that the source may be used by other members overtime.
+
+Once a member starts distributing a new shared components package,they must contribute the package to the IVI Foundation, so thatadditional members that choose to support that distribution will beable to ship the same package.
 
 #### Shared Component Support
 
-> All shared component support is handled by VISA vendors.
+All shared component support is handled by VISA vendors.
 
 ### USBTMC driver
 
-> The primary method of distributing the USBTMC driver is through the
-> Linux kernel.  Since the IVI Foundation source has been submitted to
-> the kernel and accepted, it is subject to the terms and conditions of
-> the GPL2 license. In addition, the driver or any collective works that
-> include the driver or that are distributed with the driver may be
-> subject to the GPL2 license.
->
-> The IVI Foundation has created a package for distributing the new
-> USBTMC code to Linux distributions that do not include the newer
-> version of the driver.  This package is available on the IVI
-> Foundation internal git repository.  If a vendor supports VISA on a
-> distribution that does not include the updated USBTMC kernel driver,
-> they may distribute the IVI USBTMC package.
->
-> If the IVI-supplied distribution requires modifications to work on a
-> distribution not supported by the IVI package, it is possible to use
-> the kernel source code to modify the driver and create their own
-> package. The IVI Foundation strongly discourages this.
->
-> When modifying kernel source code, members should make sure that the
-> driver source they are working with includes the latest patches to the
-> kernel driver. Members should be aware that due to GPL2 license
-> restrictions, any modifications to the driver that are distributed to
-> customers must be made available publicly.
->
-> Members are encouraged to cooperate with the I/O working group on
-> future changes to the driver to make sure that the driver continues to
-> meet the objective of providing a multi-vendor USBTMC solution on
-> Linux.  The contents of new revisions of the IVI package will be
-> determined by the I/O working group.
+The primary method of distributing the USBTMC driver is through theLinux kernel.  Since the IVI Foundation source has been submitted tothe kernel and accepted, it is subject to the terms and conditions ofthe GPL2 license. In addition, the driver or any collective works thatinclude the driver or that are distributed with the driver may besubject to the GPL2 license.
+
+The IVI Foundation has created a package for distributing the newUSBTMC code to Linux distributions that do not include the newerversion of the driver.  This package is available on the IVIFoundation internal git repository.  If a vendor supports VISA on adistribution that does not include the updated USBTMC kernel driver,they may distribute the IVI USBTMC package.
+
+If the IVI-supplied distribution requires modifications to work on adistribution not supported by the IVI package, it is possible to usethe kernel source code to modify the driver and create their ownpackage. The IVI Foundation strongly discourages this.
+
+When modifying kernel source code, members should make sure that thedriver source they are working with includes the latest patches to thekernel driver. Members should be aware that due to GPL2 licenserestrictions, any modifications to the driver that are distributed tocustomers must be made available publicly.
+
+Members are encouraged to cooperate with the I/O working group onfuture changes to the driver to make sure that the driver continues tomeet the objective of providing a multi-vendor USBTMC solution onLinux.  The contents of new revisions of the IVI package will bedetermined by the I/O working group.
 
 ## Appendix A: Example: IVI Board of Directors E-Vote
 
@@ -853,7 +684,7 @@ Regards,
 
 Technical Committee Chairperson
 
-<span id="_Toc527967591" class="anchor"></span>Appendix C: Extending Class Specifications
+## Appendix C: Extending Class Specifications
 
 This appendix is for the convenience of working group chairpersons. It provides guidelines for process, clarification of deliverables, and draws attention to important IVI requirements that are easy to overlook.
 
@@ -885,18 +716,13 @@ This appendix is for the convenience of working group chairpersons. It provides 
 
     9. As outlined on the architecture control section of the IVI web site (<ftp://www.ivifoundation.org/Member%20Login/ArchitectureControlDocuments/default.htm>) select updated GUIDs for the components.
 
-> Since the last three items in the list above involve changes to the
-> common infrastructure, need to carefully document the use of these
-> values so that the IVI specifications can be appropriately updated
-> when complete.
->
-> It is important to capture as much work as possible in the standard
-> IVI templates to minimize the work when the specification is complete
-> and the documents are merged.
+   Since the last three items in the list above involve changes to thecommon infrastructure, need to carefully document the use of thesevalues so that the IVI specifications can be appropriately updatedwhen complete.
 
-1. Review and update the deliverables required from class committees as documented in Chapter 5 of this document.
+   It is important to capture as much work as possible in the standardIVI templates to minimize the work when the specification is completeand the documents are merged.
 
-2. Create new shared components for the specification. Include:
+6. Review and update the deliverables required from class committees as documented in Chapter 5 of this document.
+
+7. Create new shared components for the specification. Include:
 
     - Signed PIA (contact Pacific Mindworks or Agilent technologies to get this signed)
 
@@ -910,4 +736,4 @@ This appendix is for the convenience of working group chairpersons. It provides 
 
     - .idl file with English help strings (to be included in base .idl file)
 
-3. Once voted in, create the actual new specification, following the naming guidelines in IVI 3.12, make sure the website gets updated with the new specification and ensure that the shared components are evaluated by the shared components working group and incorporated into the installer.
+8. Once voted in, create the actual new specification, following the naming guidelines in IVI 3.12, make sure the website gets updated with the new specification and ensure that the shared components are evaluated by the shared components working group and incorporated into the installer.
