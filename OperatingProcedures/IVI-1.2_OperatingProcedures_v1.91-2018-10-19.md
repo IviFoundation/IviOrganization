@@ -1,212 +1,91 @@
-<table>
-<colgroup>
-<col style="width: 100%" />
-</colgroup>
-<tbody>
-<tr>
-<td><p><img src="media/image1.wmf" /></p>
-<p>IVI‑1.2: Operating Procedures</p>
-<p>October 19, 2018 Edition<br />
-Revision 1.9</p>
-<p>FINAL</p></td>
-</tr>
-</tbody>
-</table>
-
-Important Information
-
-IVI-1.2: Operating Procedures is authored by the IVI Foundation member
-companies. For a vendor membership roster list, please visit the IVI
-Foundation web site at www.ivifoundation.org, or contact the IVI
-Foundation at 2515 Camino del Rio South, Suite 340, San Diego, CA 92108.
-
-The IVI Foundation wants to receive your comments on this specification.
-You can contact the Foundation through email at
-ivilistserver@ivifoundation.org, through the web site at
-www.ivifoundation.org, or you can write to the IVI Foundation, 2515
-Camino del Rio South, Suite 340, San Diego, CA 92108.
-
-Warranty
-
-The IVI Foundation and its member companies make no warranty of any kind
-with regard to this material, including, but not limited to, the implied
-warranties of merchantability and fitness for a particular purpose. The
-IVI Foundation and its member companies shall not be liable for errors
-contained herein or for incidental or consequential damages in
-connection with the furnishing, performance, or use of this material.
-
-Trademarks
-
-Product and company names listed are trademarks or trade names of their
-respective companies.
-
-No investigation has been made of common‑law trademark rights in any
-work.
-
-|  |  |
-|----|---:|
-|  | <img src="media/image2.wmf" style="width:1.62569in;height:1.40486in" /> |
-
-[IVI‑1.2 Operating Procedures [5](#_Toc530746287)](#_Toc530746287)
-
-[1. Overview of the IVI Operating Procedures
-[6](#overview-of-the-ivi-operating-procedures)](#overview-of-the-ivi-operating-procedures)
-
-[1.1 Introduction [6](#introduction)](#introduction)
-
-[1.2 Audience of Specification
-[6](#audience-of-specification)](#audience-of-specification)
-
-[1.3 References [6](#references)](#references)
-
-[2. Procedures Used When Running Meetings
-[7](#procedures-used-when-running-meetings)](#procedures-used-when-running-meetings)
-
-[2.1 Chairperson and Purpose
-[7](#chairperson-and-purpose)](#chairperson-and-purpose)
-
-[2.2 Phone Meetings [7](#phone-meetings)](#phone-meetings)
-
-[2.3 Notice [7](#notice)](#notice)
-
-[2.4 Quorum and Voting [7](#quorum-and-voting)](#quorum-and-voting)
-
-[2.5 General practices [7](#general-practices)](#general-practices)
-
-[2.5.1 IVI Foundation Large Group Meetings
-[8](#ivi-foundation-large-group-meetings)](#ivi-foundation-large-group-meetings)
-
-[2.5.2 Chairperson Neutrality
-[8](#chairperson-neutrality)](#chairperson-neutrality)
-
-[2.6 Distribution Of Documents
-[8](#distribution-of-documents)](#distribution-of-documents)
-
-[2.6.1 Other Supporting Materials
-[8](#other-supporting-materials)](#other-supporting-materials)
-
-[2.7 Minutes [8](#minutes)](#minutes)
-
-[3. Quorum and General Voting Requirements
-[10](#quorum-and-general-voting-requirements)](#quorum-and-general-voting-requirements)
-
-[3.1 Quorum [10](#quorum)](#quorum)
-
-[3.2 Necessary Majority to Pass Various Resolutions
-[10](#necessary-majority-to-pass-various-resolutions)](#necessary-majority-to-pass-various-resolutions)
-
-[3.3 Conducting Votes Electronically
-[11](#conducting-votes-electronically)](#conducting-votes-electronically)
-
-[3.3.1 Posing a Resolution Electronically
-[11](#posing-a-resolution-electronically)](#posing-a-resolution-electronically)
-
-[3.3.2 Form of the Electronic Call for Vote
-[12](#form-of-the-electronic-call-for-vote)](#form-of-the-electronic-call-for-vote)
-
-[3.3.3 Recording of Resolutions
-[12](#recording-of-resolutions)](#recording-of-resolutions)
-
-[3.3.4 Multiple Resolutions
-[12](#multiple-resolutions)](#multiple-resolutions)
-
-[4. Procedures Regarding Creating a New Specification
-[13](#procedures-regarding-creating-a-new-specification)](#procedures-regarding-creating-a-new-specification)
-
-[4.1 Proposing New Technology
-[13](#proposing-new-technology)](#proposing-new-technology)
-
-[4.2 Creating the Specification
-[13](#creating-the-specification)](#creating-the-specification)
-
-[4.3 Adopting a New Technical Specification
-[14](#adopting-a-new-technical-specification)](#adopting-a-new-technical-specification)
-
-[4.4 Summary of Voting Requirements
-[15](#summary-of-voting-requirements)](#summary-of-voting-requirements)
-
-[5. Required Deliverables from Class Committees
-[18](#required-deliverables-from-class-committees)](#required-deliverables-from-class-committees)
-
-[5.1 Creating New Class Specifications
-[18](#creating-new-class-specifications)](#creating-new-class-specifications)
-
-[5.2 Required Deliverables from Class Committees
-[18](#required-deliverables-from-class-committees-1)](#required-deliverables-from-class-committees-1)
-
-[6. Assigning a Revision Number to a Specification
-[20](#assigning-a-revision-number-to-a-specification)](#assigning-a-revision-number-to-a-specification)
-
-[6.1 First Time Approval of a Specification
-[20](#first-time-approval-of-a-specification)](#first-time-approval-of-a-specification)
-
-[6.2 Changes to Approved Specifications
-[20](#changes-to-approved-specifications)](#changes-to-approved-specifications)
-
-[6.3 Specifications for Shared Components
-[21](#specifications-for-shared-components)](#specifications-for-shared-components)
-
-[7. IVI Standards Generation
-[22](#ivi-standards-generation)](#ivi-standards-generation)
-
-[8. IVI Conformance Disputes Arbitration Process
-[23](#ivi-conformance-disputes-arbitration-process)](#ivi-conformance-disputes-arbitration-process)
-
-[8.1 Purpose [23](#purpose)](#purpose)
-
-[8.2 Raising concerns [23](#raising-concerns)](#raising-concerns)
-
-[8.3 IVI Foundation Evaluation Process
-[23](#ivi-foundation-evaluation-process)](#ivi-foundation-evaluation-process)
-
-[8.4 Arbitration [23](#arbitration)](#arbitration)
-
-[8.5 Censure [24](#censure)](#censure)
-
-[8.6 Closure [24](#closure)](#closure)
-
-[9. Shared Component Management Process
-[26](#shared-component-management-process)](#shared-component-management-process)
-
-[9.1 VISA Common Components
-[26](#visa-common-components)](#visa-common-components)
-
-[9.2 Shared Components Source Code Availability
-[26](#shared-components-source-code-availability)](#shared-components-source-code-availability)
-
-[10. Procedures Used When Developing Linux Components for VISA
-[27](#procedures-used-when-developing-linux-components-for-visa)](#procedures-used-when-developing-linux-components-for-visa)
-
-[10.1 VISA Shared Components for Linux
-[27](#visa-shared-components-for-linux)](#visa-shared-components-for-linux)
-
-[10.1.1 IVI Supported Packages
-[27](#ivi-supported-packages)](#ivi-supported-packages)
-
-[10.1.2 Source Availability and Modifications
-[27](#source-availability-and-modifications)](#source-availability-and-modifications)
-
-[10.1.3 Shared Component Support
-[27](#shared-component-support)](#shared-component-support)
-
-[10.2 USBTMC driver [27](#usbtmc-driver)](#usbtmc-driver)
-
-[Appendix A: Example: IVI Board of Directors E-Vote
-[29](#appendix-a-example-ivi-board-of-directors-e-vote)](#appendix-a-example-ivi-board-of-directors-e-vote)
-
-[Appendix B: Example: IVI Technical Committee E-Vote
-[30](#appendix-b-example-ivi-technical-committee-e-vote)](#appendix-b-example-ivi-technical-committee-e-vote)
-
-[Appendix C: Extending Class Specifications
-[31](#_Toc527967591)](#_Toc527967591)
-
-<span id="_Toc530746287" class="anchor"></span>IVI‑1.2 Operating
-Procedures
-
-IVI Operating Procedures Revision History
+# IVI Foundation Operating Procedures
+
+| Version Number | Date of Version    | Version Notes                  |
+|--------------- | ---------------    | -------------                  |
+| 1.91           |  February 2025  | Initial Import of Specification to GitHub/Markdown  |
+
+## Authorship
+
+This specification is developed by member companies of the IVI Foundation. Feedback is encouraged. To view the list of member vendors or provide feedback, please visit the IVI Foundation website at [www.ivifoundation.org](https://www.ivifoundation.org).
+
+## Warranty
+
+The IVI Foundation and its member companies make no warranty of any kind with regard to this material, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The IVI Foundation and its member companies shall not be liable for errors contained herein or for incidental or consequential damages in connection with the furnishing, performance, or use of this material.
+
+## Trademarks
+
+Product and company names listed are trademarks or trade names of their respective companies.
+
+No investigation has been made of common law trademark rights in any work.
+
+## Table of Contents
+
+- [IVI Foundation Operating Procedures](#ivi-foundation-operating-procedures)
+      - [Abstract](#abstract)
+      - [Authorship](#authorship)
+      - [Warranty](#warranty)
+      - [Trademarks](#trademarks)
+      - [Table of Contents](#table-of-contents)
+      - [IVI Operating Procedures Revision History Preceding Import to Markdown](#ivi-operating-procedures-revision-history-preceding-import-to-markdown)
+  - [Overview of the IVI Operating Procedures](#overview-of-the-ivi-operating-procedures)
+    - [Introduction](#introduction)
+    - [Audience of Specification](#audience-of-specification)
+    - [References](#references)
+  - [Procedures Used When Running Meetings](#procedures-used-when-running-meetings)
+    - [Chairperson and Purpose](#chairperson-and-purpose)
+    - [Phone Meetings](#phone-meetings)
+    - [Notice](#notice)
+    - [Quorum and Voting](#quorum-and-voting)
+    - [General practices](#general-practices)
+      - [IVI Foundation Large Group Meetings](#ivi-foundation-large-group-meetings)
+      - [Chairperson Neutrality](#chairperson-neutrality)
+    - [Distribution Of Documents](#distribution-of-documents)
+      - [Other Supporting Materials](#other-supporting-materials)
+    - [Minutes](#minutes)
+  - [Quorum and General Voting Requirements](#quorum-and-general-voting-requirements)
+    - [Quorum](#quorum)
+    - [Necessary Majority to Pass Various Resolutions](#necessary-majority-to-pass-various-resolutions)
+    - [Conducting Votes Electronically](#conducting-votes-electronically)
+      - [Posing a Resolution Electronically](#posing-a-resolution-electronically)
+      - [Form of the Electronic Call for Vote](#form-of-the-electronic-call-for-vote)
+      - [Recording of Resolutions](#recording-of-resolutions)
+      - [Multiple Resolutions](#multiple-resolutions)
+  - [Procedures Regarding Creating a New Specification](#procedures-regarding-creating-a-new-specification)
+    - [Proposing New Technology](#proposing-new-technology)
+    - [Creating the Specification](#creating-the-specification)
+    - [Adopting a New Technical Specification](#adopting-a-new-technical-specification)
+    - [Summary of Voting Requirements](#summary-of-voting-requirements)
+  - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees)
+    - [Creating New Class Specifications](#creating-new-class-specifications)
+    - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees-1)
+  - [Assigning a Revision Number to a Specification](#assigning-a-revision-number-to-a-specification)
+    - [First Time Approval of a Specification](#first-time-approval-of-a-specification)
+    - [Changes to Approved Specifications](#changes-to-approved-specifications)
+    - [Specifications for Shared Components](#specifications-for-shared-components)
+  - [IVI Standards Generation](#ivi-standards-generation)
+  - [IVI Conformance Disputes Arbitration Process](#ivi-conformance-disputes-arbitration-process)
+    - [Purpose](#purpose)
+    - [Raising concerns](#raising-concerns)
+    - [IVI Foundation Evaluation Process](#ivi-foundation-evaluation-process)
+    - [Arbitration](#arbitration)
+    - [Censure](#censure)
+    - [Closure](#closure)
+  - [Shared Component Management Process](#shared-component-management-process)
+    - [VISA Common Components](#visa-common-components)
+    - [Shared Components Source Code Availability](#shared-components-source-code-availability)
+  - [Procedures Used When Developing Linux Components for VISA](#procedures-used-when-developing-linux-components-for-visa)
+    - [VISA Shared Components for Linux](#visa-shared-components-for-linux)
+      - [IVI Supported Packages](#ivi-supported-packages)
+      - [Source Availability and Modifications ](#source-availability-and-modifications)
+      - [Shared Component Support ](#shared-component-support)
+    - [USBTMC driver](#usbtmc-driver)
+  - [Appendix A: Example: IVI Board of Directors E-Vote](#appendix-a-example-ivi-board-of-directors-e-vote)
+  - [Appendix B: Example: IVI Technical Committee E-Vote](#appendix-b-example-ivi-technical-committee-e-vote)
+
+## IVI Operating Procedures Revision History Preceding Import to Markdown
 
 This section is an overview of the revision history of the IVI Operating
-Procedures.
+Procedures before importing into markdown.
 
 | **Table 1‑1.** IVI Operating Procedures Revisions |  |  |
 |----|----|----|
@@ -222,9 +101,9 @@ Procedures.
 | Revision 1.8 | June 6, 2016 | Added section 9.2 describing the requirement that shared components be supplied to the Foundation with full source code. |
 | Revision 1.9 | October 19, 2018 | Added section on Procedures Used When Developing Linux Components for VISA |
 
-# Overview of the IVI Operating Procedures
+## Overview of the IVI Operating Procedures
 
-## Introduction
+### Introduction
 
 IVI-1.2 *Operating Procedures* describe IVI Foundation rules and
 practices for conducting business. All discussions and business
@@ -239,18 +118,18 @@ anything appearing in this document, the by-laws take precedence.
 Where procedures are not defined by the document or the by-laws, the IVI
 Foundation uses *Robert’s Rules of Order (Revised).*
 
-## Audience of Specification
+### Audience of Specification
 
 This document is intended for members of the IVI Foundation.
 
-## References
+### References
 
-See [www.robertsrules.com/](http://www.robertsrules.com/) for Roberts
-Rules of Order
+See [www.robertsrules.com](http://www.robertsrules.com) for Roberts
+Rules of Order.
 
-See www.ivifoundation.org for IVI Foundation by-laws
+See <www.ivifoundation.org> for IVI Foundation by-laws
 
-# Procedures Used When Running Meetings
+## Procedures Used When Running Meetings
 
 The following procedures are used to guide the meetings of committees
 and sub-committees of the IVI Foundation.
@@ -261,13 +140,13 @@ create, also follow these operating procedures.
 
 Meetings will be run with Roberts Rules of Order as a guiding principle.
 
-## Chairperson and Purpose
+### Chairperson and Purpose
 
 Each committee or sub-committee of the IVI Foundation shall have a
 chairperson and a written charter the clearly describes the purpose of
 the group
 
-## Phone Meetings
+### Phone Meetings
 
 Meetings by Phone Conference, Web-ex or other electronic means shall be
 considered as fully valid face-to-face meetings, and shall follow the
@@ -280,7 +159,7 @@ same rules except as noted.
 
 - 7 days notice of the meeting with agenda and call details
 
-## Notice
+### Notice
 
 Sufficient notice (where and when) will be given prior to each physical
 meeting, giving location, time and date. Since physical meetings require
@@ -293,7 +172,7 @@ Phone meetings shall be announced with 1-week notice.
 Note that meetings may be scheduled with less notice, but binding
 decisions can not be made at these meetings.
 
-## Quorum and Voting
+### Quorum and Voting
 
 A quorum shall be established at each meeting. All voting is conducted
 with one vote per member company with voting privileges. If more than
@@ -308,11 +187,11 @@ See section 3 of this document for details regarding how many members
 must be present to establish a quorum for various groups and business
 items and the majority necessary to pass a resolution.
 
-## General practices
+### General practices
 
 The following sections describe general practices.
 
-### IVI Foundation Large Group Meetings
+#### IVI Foundation Large Group Meetings
 
 Meeting notices including meeting schedule shall be sent to the
 membership not less than 10 or more than 60 days before the meeting.
@@ -332,7 +211,7 @@ The IVI Foundation shall:
 - Committee and sub-committee chairpersons provide detailed agendas for
   their meetings one week before the first day of the meeting.
 
-### Chairperson Neutrality
+#### Chairperson Neutrality
 
 In order to maintain order in the meeting it is helpful for the
 chairperson to maintain a neutral position. When the chairperson is
@@ -340,7 +219,7 @@ unable or unwilling to do this, he/she should request someone from the
 group that has not committed to a position on the issue to temporarily
 act as chairperson (per Roberts Rules of Order).
 
-## Distribution Of Documents
+### Distribution Of Documents
 
 For all major technical documents to be discussed at a meeting, said
 documents should be available to all committee members, either
@@ -351,13 +230,13 @@ technical documents, and perhaps get input from colleagues in their
 organization that will not attend the meeting. Votes shall not be taken
 on documents that are not made available by this deadline.
 
-### Other Supporting Materials 
+#### Other Supporting Materials
 
 It may be appropriate to distribute short documents (one or two pages)
 at the meetings, but it is recommended that for controversial subjects
 all documents comply with the two week deadline.
 
-## Minutes
+### Minutes
 
 All meetings shall have minutes. It is recommended that the chairperson
 select someone other than him/herself to take the minutes. However, it
@@ -384,7 +263,7 @@ include:
 
 - Action items with owners and due dates
 
-# Quorum and General Voting Requirements
+## Quorum and General Voting Requirements
 
 This section describes general voting requirements. In general, per the
 by-laws of the foundation, business is conducted in accordance with
@@ -394,7 +273,7 @@ Because the IVI Foundation is especially concerned about the maintenance
 of technical specifications, certain extraordinary rules apply to some
 resolutions as indicated in section 3.2.
 
-## Quorum
+### Quorum
 
 The following table describes the criteria needed for a quorum at
 various IVI Foundation meetings. Note that this only applies to live
@@ -408,7 +287,7 @@ meetings conducted telephonically.
 | Board of Directors | *A majority (that is, greater than 50%) of the directors in office* |
 | Voting Membership (Annual Meeting) | *25% of those entitled to vote or 2, whichever is more* |
 
-## Necessary Majority to Pass Various Resolutions
+### Necessary Majority to Pass Various Resolutions
 
 The following table describes the criteria needed for a vote to pass on
 various types of resolutions. Note that “Live Meetings” include both
@@ -500,7 +379,7 @@ Note that for resolutions that require \>50% of those present, that if
 30 (or 31) members are present a minimum of 16 votes is necessary to
 pass the resolution.
 
-## Conducting Votes Electronically
+### Conducting Votes Electronically
 
 The foundation allows all business to be conducted electronically.
 Unless a specific exception is declared by the chairperson, electronic
@@ -508,46 +387,46 @@ votes are conducted by e-mail. The only requirement for the respondent
 is that they clearly indicate their preference on the vote. Generally an
 e-mail reply with either “in favor” or “opposed” is adequate.
 
-### Posing a Resolution Electronically
+#### Posing a Resolution Electronically
 
 Since the electronic medium does not provide a convenient way to
 introduce a motion or debate a resolution, the following guidelines
 shall be followed:
 
-1.  ***Chairperson posing a resolution***: If the resolution is not
-    expected to be contentious, the chairperson is authorized to compose
-    the resolution and call for a vote without second or debate. *The
-    resolution must be composed in a way that does not bias the
-    respondents.* Once the chairperson calls for a vote, any member
-    authorized to vote may assert their right to debate the resolution
-    at which point the resolution and the vote are declared invalid by
-    the chairperson and process three below may be used.
+1. ***Chairperson posing a resolution***: If the resolution is not
+  expected to be contentious, the chairperson is authorized to compose
+  the resolution and call for a vote without second or debate. *The
+  resolution must be composed in a way that does not bias the
+  respondents.* Once the chairperson calls for a vote, any member
+  authorized to vote may assert their right to debate the resolution
+  at which point the resolution and the vote are declared invalid by
+  the chairperson and process three below may be used.
 
-2.  ***Sub-Committee posing a resolution:*** If the resolution is being
-    posed to a parent committee by a sub-committee, then the
-    sub-committee or its’ chairperson shall compose the resolution (note
-    that this policy should be followed for face-to-face meetings as
-    well) and the chairperson of the parent committee shall call for a
-    vote without a second or debate. If any member authorized to vote
-    wishes to debate the resolution, the chairperson of the parent
-    committee will withdraw the current call for a vote and provide
-    ample time for an e-mail based discussion after which the
-    chairperson of the sub-committee may again call for a vote.
+2. ***Sub-Committee posing a resolution:*** If the resolution is being
+  posed to a parent committee by a sub-committee, then the
+  sub-committee or its’ chairperson shall compose the resolution (note
+  that this policy should be followed for face-to-face meetings as
+  well) and the chairperson of the parent committee shall call for a
+  vote without a second or debate. If any member authorized to vote
+  wishes to debate the resolution, the chairperson of the parent
+  committee will withdraw the current call for a vote and provide
+  ample time for an e-mail based discussion after which the
+  chairperson of the sub-committee may again call for a vote.
 
-3.  ***Member posing a resolution:*** If a member would like to pose a
-    resolution, the usual requirement of a second and debate is
-    required. The following process shall be followed:
+3. ***Member posing a resolution:*** If a member would like to pose a
+  resolution, the usual requirement of a second and debate is
+  required. The following process shall be followed:
 
-    1.  Any member may compose a resolution and send it to the
-        chairperson.
+    1. Any member may compose a resolution and send it to the
+      chairperson.
 
-    2.  The chairperson should send to the membership and request a
+    2. The chairperson should send to the membership and request a
         second in a timely fashion.
 
-    3.  If a second is received, the chairperson should allow a
+    3. If a second is received, the chairperson should allow a
         reasonable amount of time for electronic based discussion.
 
-    4.  Once electronic discussion has come to a close, as evidenced by
+    4. Once electronic discussion has come to a close, as evidenced by
         a lack of e-mail traffic, the chairperson should call for a
         vote.
 
@@ -560,7 +439,7 @@ awkward. Therefore this process should be avoided. Where practical, it
 is preferable to form subcommittees to meet telephonically and following
 process two above.
 
-### Form of the Electronic Call for Vote
+#### Form of the Electronic Call for Vote
 
 When the chairperson of a committee calls a vote electronically, the
 following should be included in the e-mail:
@@ -581,19 +460,19 @@ following should be included in the e-mail:
 
 See appendixes A and B for sample e-mail messages.
 
-### Recording of Resolutions
+#### Recording of Resolutions
 
 At the next regular meeting of any body that passes a resolution
 electronically, the passed resolution shall be incorporated into the
 minutes of that meeting.
 
-### Multiple Resolutions
+#### Multiple Resolutions
 
 It is permissible to incorporate multiple resolutions into a single
 e-mail. Respondents need to clearly indicate which resolutions their
 votes correspond to.
 
-# Procedures Regarding Creating a New Specification
+## Procedures Regarding Creating a New Specification
 
 This section details the procedures that are to be followed when a
 member wishes to propose the creation of a new specification. This
@@ -601,7 +480,7 @@ section summarizes in one location the guidelines and rules that are
 presented in the IVI Foundation by-laws and intellectual property
 policy.
 
-## Proposing New Technology
+### Proposing New Technology
 
 Any member in good standing may propose that the IVI Foundation adopt a
 new technology as an official IVI Foundation specification. This
@@ -645,7 +524,7 @@ super-majority).
 The member’s proposal as well as submission of technology form are then
 passed on to the board of directors for final approval.
 
-## Creating the Specification
+### Creating the Specification
 
 Once the board grants approval, a sub-committee of the Technical
 Committee is created to draft the specification. This sub-committee
@@ -665,107 +544,51 @@ Once the sub-committee has created the specification and is comfortable
 with its contents, it submits its final draft to the Technical Committee
 for approval.
 
-## Adopting a New Technical Specification
+### Adopting a New Technical Specification
 
 The following process shall be followed when adopting a specification:
 
-1.  Initiation of work
+1. Initiation of work
 
-> Work can either be initiated as the result of a member proposing an
-> existing body of work, or through the technical committee resolving to
-> create a new body of work. The IVI Foundation Technical Committee
-> officially initiates new work by approving a charter for a working
-> group. This resolution may only be passed with a 2/3 majority of the
-> Technical Committee per section 5.5 of the IVI by-laws.
->
-> When the work is initiated, anyone submitting technology, techniques,
-> or approaches for the basis of all or part of the new specification is
-> required to complete an IP disclosure, substantially equivalent to the
-> example included in Appendix A of the IVI IP Policy.
+    Work can either be initiated as the result of a member proposing an existing body of work, or through the technical committee resolving to create a new body of work. The IVI Foundation Technical Committee officially initiates new work by approving a charter for a working group. This resolution may only be passed with a 2/3 majority of the Technical Committee per section 5.5 of the IVI by-laws.
 
-2.  Creation of draft
+    When the work is initiated, anyone submitting technology, techniques, or approaches for the basis of all or part of the new specification is required to complete an IP disclosure, substantially equivalent to the example included in Appendix A of the IVI IP Policy.
 
-> The working group conducts meetings as appropriate to prepare a draft.
-> Note that this work is all conducted under the disclosure requirement
-> of the IVI IP Policy. While the work is conducted, working group
-> members are reminded of the IVI IP Policy and the requirement that
-> participants disclose and IP they are aware of. This is done at the
-> beginning of technical committee meetings.
->
-> If the chairperson of the working group feels any members of the group
-> have not had appropriate notification of the IP requirement (for
-> instance because all working group meetings have taken place
-> telephonically without a corresponding technical committee meeting),
-> the working group chairperson shall issue a patent call by reading and
-> explaining the patent call from Appendix C of the IVI IP Policy. This
-> action should be duly noted in the minutes, along with any responses
-> from the membership indicating any knowledge of relevant IP. Further,
-> the chairperson shall report any indication of an IP issue to the
-> Technical Committee chairperson.
+1. Creation of draft
 
-3.  Request for Final Comment and IP Declaration
+   The working group conducts meetings as appropriate to prepare a draft. Note that this work is all conducted under the disclosure requirement of the IVI IP Policy. While the work is conducted, working group members are reminded of the IVI IP Policy and the requirement that participants disclose and IP they are aware of. This is done at the beginning of technical committee meetings.
 
-> The chairperson of the Technical Committee shall submit the completed
-> draft specification to the general membership. Any members reviewing
-> the specification shall submit comments and errata to the working
-> group chairperson.
->
-> During the review period, every member is requested to complete an IP
-> declaration consistent with Appendix B of the IVI IP Policy (version
-> 1.1). This IP declaration *is solicited from all members regardless of
-> their participation in the specification or their desire to vote.*
->
-> The review period shall be at least 45 days.
+   If the chairperson of the working group feels any members of the group have not had appropriate notification of the IP requirement (for instance because all working group meetings have taken place telephonically without a corresponding technical committee meeting), the working group chairperson shall issue a patent call by reading and explaining the patent call from Appendix C of the IVI IP Policy. This action should be duly noted in the minutes, along with any responses from the membership indicating any knowledge of relevant IP. Further, the chairperson shall report any indication of an IP issue to the Technical Committee chairperson.
 
-4.  Response to inputs from membership review
+3. Request for Final Comment and IP Declaration
 
-> The working group then addresses the comments and within its
-> discretion accepts or rejects each of them. Once the specification
-> draft has been revised, the working group chairperson and the
-> Technical Committee chairperson shall cooperate to determine whether a
-> new review period is required, and if so repeat the process outlined
-> above.
+   The chairperson of the Technical Committee shall submit the completed draft specification to the general membership. Any members reviewing the specification shall submit comments and errata to the working group chairperson.
 
-5.  Vote by Technical Committee and Additional IPR Declaration
+   During the review period, every member is requested to complete an IP declaration consistent with Appendix B of the IVI IP Policy (version 1.1). This IP declaration *is solicited from all members regardless of their participation in the specification or their desire to vote.*
 
-> If the Technical Committee Chairperson feels that changes to the draft
-> are sufficient to warrant an additional IP declaration, or if any
-> member requests an additional IP declaration, an IP declaration per
-> Appendix B of the IP Policy may be required at this time.
->
-> Once the specification is ready for vote, the Technical Committee
-> chairperson submits the specification for approval by the technical
-> committee. If an additional IPR declaration is required, the minimum
-> time period is 30 days. If the additional IPR declaration is not
-> required, the minimum time period shall be 6 full business days (for
-> instance calling for the vote on Tuesday, then have full 6 days from
-> Wednesday of one week through Wednesday of the following week, and
-> votes are tallied on Thursday at the beginning of business).
->
-> The outcome of the vote is determined according to the voting
-> procedures set forth in section 3.2 (Necessary Majority to Pass
-> Various Resolutions) above for approving a new piece of work,
-> including any requirements on quorums and voting eligibility. If there
-> are any intellectual property licensing issues that relate to the
-> specification, they are to be resolved, and the appropriate licenses
-> obtained prior to the posting of the completed specification.
+   The review period shall be at least 45 days.
 
-6.  Collection of licenses
+4. Response to inputs from membership review
 
-> If a member is to license its IPR to the IVI Foundation, the
-> appropriate **Generic License Agreement (With** **License Fee** or
-> **No** **Licence Fee)** shall be obtained from the IVI Foundation
-> offices and adapted to the specific IPR being granted and the license
-> fees agreed upon.
+   The working group then addresses the comments and within its discretion accepts or rejects each of them. Once the specification draft has been revised, the working group chairperson and the Technical Committee chairperson shall cooperate to determine whether a new review period is required, and if so repeat the process outlined above.
 
-7.  Vote by Board of Directors
+1. Vote by Technical Committee and Additional IPR Declaration
 
-> Per section 5.5 of the by-laws, an additional vote shall be conducted
-> by the Board of Directors to pass the new specification. This vote
-> requires a simple majority as do other resolutions acted on by the
-> Board of Directors.
+   If the Technical Committee Chairperson feels that changes to the draft are sufficient to warrant an additional IP declaration, or if any member requests an additional IP declaration, an IP declaration per Appendix B of the IP Policy may be required at this time.
 
-## Summary of Voting Requirements
+   Once the specification is ready for vote, the Technical Committee chairperson submits the specification for approval by the technical committee. If an additional IPR declaration is required, the minimum time period is 30 days. If the additional IPR declaration is not required, the minimum time period shall be 6 full business days (for instance calling for the vote on Tuesday, then have full 6 days from Wednesday of one week through Wednesday of the following week, and votes are tallied on Thursday at the beginning of business).
+
+   The outcome of the vote is determined according to the voting procedures set forth in section 3.2 (Necessary Majority to Pass Various Resolutions) above for approving a new piece of work, including any requirements on quorums and voting eligibility. If there are any intellectual property licensing issues that relate to the specification, they are to be resolved, and the appropriate licenses obtained prior to the posting of the completed specification.
+
+1. Collection of licenses
+
+   If a member is to license its IPR to the IVI Foundation, the appropriate **Generic License Agreement (With** **License Fee** or **No** **Licence Fee)** shall be obtained from the IVI Foundation offices and adapted to the specific IPR being granted and the license fees agreed upon.
+
+7. Vote by Board of Directors
+
+   Per section 5.5 of the by-laws, an additional vote shall be conducted by the Board of Directors to pass the new specification. This vote requires a simple majority as do other resolutions acted on by the Board of Directors.
+
+### Summary of Voting Requirements
 
 **Table 4‑1**, *Summary of Voting Requirements*, summarizes the voting
 requirements for various measures.
@@ -783,16 +606,13 @@ requirements for various measures.
 |  | **IPR Declaration** | 30 Days (At any member's request) | 30 Days (At any member's request) | 30 Days (At any member's request) | N/A |
 |  | **Document Action in Technical Committee Meeting Minutes** | Yes | Yes | Yes | Yes |
 
-**<sup>†</sup>** See section 3.2 regarding special conditions for TC
-majority and super-majority requirements for electronic and live
-meetings.
+**<sup>†</sup>** See section 3.2 regarding special conditions for TC majority and super-majority requirements for electronic and live meetings.
 
-# Required Deliverables from Class Committees
+## Required Deliverables from Class Committees
 
-This section has specific instructions and deliverables for class
-committees.
+This section has specific instructions and deliverables for class committees.
 
-## Creating New Class Specifications
+### Creating New Class Specifications
 
 When creating a new class specification, the class will need to
 establish:
@@ -824,7 +644,7 @@ have separate error and warning bases. The error and warning bases for
 IVI-COM and IVI-C are define in IVI 3.1 section 5.6. New classes need to
 update this table with the four new base values.
 
-## Required Deliverables from Class Committees
+### Required Deliverables from Class Committees
 
 In order to complete a new class specification, the following need to be
 provided by the class sub-committee before the final vote is called for:
@@ -854,13 +674,13 @@ provided by the class sub-committee before the final vote is called for:
 > on the IVI Foundation web site as explanatory text for the class
 > specification.
 >
-> Visual C# Project This is the .NET artifacts, including the project
-> file, C# source for all interfaces, exceptions, enums, session
+> Visual C## Project This is the .NET artifacts, including the project
+> file, C## source for all interfaces, exceptions, enums, session
 > factory, and any other required source to build the assembly. Note
 > that the XML comments must be included in the source code in a style
 > consistent with existing specifications.
 
-# Assigning a Revision Number to a Specification
+## Assigning a Revision Number to a Specification
 
 There are three version levels that are possible for a specification –
 Major, Minor, and Editorial:
@@ -886,7 +706,7 @@ If a specification contains unapproved changes that require the Major or
 Minor version number to increment, then the specification title page
 shall prominently display the text “DRAFT REVISION”.
 
-## First Time Approval of a Specification
+### First Time Approval of a Specification
 
 The first time that a specification is approved:
 
@@ -897,7 +717,7 @@ The first time that a specification is approved:
 
 - The revision history is cleared so it only shows changes after 1.0
 
-## Changes to Approved Specifications 
+### Changes to Approved Specifications
 
 All changes to an approved specification (Major, Minor, and Editorial)
 shall be noted in the Revision History section of the specification.
@@ -924,7 +744,7 @@ The Editorial changes shall be reviewed the next regularly scheduled
 Technical Committee meeting so that the changes can be logged in
 official meeting minutes.
 
-## Specifications for Shared Components 
+### Specifications for Shared Components
 
 The version numbers of a shared component and the specification that
 defines the shared component are managed independently. That is, there
@@ -935,7 +755,7 @@ The Shared Component Management working group shall maintain a document
 that identifies the most recent version of each shared component and the
 version number of the specification that defines the shared component.
 
-# IVI Standards Generation
+## IVI Standards Generation
 
 It is useful for the IVI driver standards to have a benchmark that
 establishes a self consistent set of the IVI driver standards and
@@ -960,9 +780,9 @@ February, 2134, the IVI generation would be IVI-2135. IVI compliant
 drivers initially released on or after January 1, 2136 would be required
 to comply with the IVI-2135 generation.
 
-# IVI Conformance Disputes Arbitration Process
+## IVI Conformance Disputes Arbitration Process
 
-## Purpose
+### Purpose
 
 > Purpose of the process:
 
@@ -975,7 +795,7 @@ to comply with the IVI-2135 generation.
 - Establish how the IVI Foundation responds to both legitimate and false
   complaints regarding IVI drivers
 
-## Raising concerns
+### Raising concerns
 
 > To raise concerns about IVI conformance, a company, or individual
 > should inform the IVI Foundation in writing of the complaint. The
@@ -993,7 +813,7 @@ to comply with the IVI-2135 generation.
 
 - Description of non-compliant behavior
 
-## IVI Foundation Evaluation Process
+### IVI Foundation Evaluation Process
 
 When the IVI Foundation receives a complaint regarding a driver, it will
 immediately notify the company that provides the driver of the
@@ -1002,16 +822,16 @@ Foundation. If the company does not respond, it is assumed to be
 claiming that there is no infraction and the arbitration process will be
 started.
 
-1.  If the company confirms the infraction, it will be given six months
+1. If the company confirms the infraction, it will be given six months
     (in addition to the remainder of the 30 day response period) to
     either correct the specific flaws in the driver or remove claims of
     IVI compliance. If the situation is not corrected within six months,
     the IVI Foundation will begin the censure process.
 
-2.  If the company claims the driver is in compliance, the arbitration
+2. If the company claims the driver is in compliance, the arbitration
     process is initiated.
 
-## Arbitration
+### Arbitration
 
 > This process is invoked when there is a dispute regarding the efficacy
 > of a complaint regarding the compliance of an IVI driver. It is
@@ -1070,22 +890,22 @@ If the driver is found to be in compliance, the matter is finished.
 > company providing the driver will be given one month to remedy the
 > problem.
 
-## Censure
+### Censure
 
 > If the company producing the driver fails to remedy the problem in the
 > prescribed period, the IVI Board of Directors shall take the following
 > actions:
 
-1.  It shall pass a resolution, based on a standard IVI Foundation form,
+1. It shall pass a resolution, based on a standard IVI Foundation form,
     indicating that the driver in not in compliance and the driver
     supplier has failed to correct it.
 
-2.  It shall send a letter based on a standard IVI Foundation form to
+2. It shall send a letter based on a standard IVI Foundation form to
     the provider of the driver stating that the provider is not allowed
     to use any IVI Foundation trademarks in reference to the driver in
     question.
 
-3.  It shall remove the driver’s registration information from the
+3. It shall remove the driver’s registration information from the
     publicly available IVI website.
 
 > At its discretion, the Board of Directors may also remove the driver
@@ -1093,14 +913,14 @@ If the driver is found to be in compliance, the matter is finished.
 > situation with the driver supplier and problems with the driver in
 > question.
 
-## Closure
+### Closure
 
 > All parties involved shall be notified of the results of the process.
 >
 > If the driver supplier subsequently corrects the problem, it may
 > request that the IVI Foundation update its judgment on the driver.
 
-# Shared Component Management Process
+## Shared Component Management Process
 
 Processes for shared component review are determined by the Shared
 Component Management Working group chair. The processes support various
@@ -1122,12 +942,12 @@ reasonable security through redundancy.
 Once shared components have been fully reviewed, any necessary updates
 to the shared component installer are done with a minimum review period.
 
-## VISA Common Components
+### VISA Common Components
 
 The VISA-COM common components are managed using the same process as
 used by the other IVI shared components.
 
-## Shared Components Source Code Availability
+### Shared Components Source Code Availability
 
 Any shared components contributed to the Foundation for inclusion in any
 of the IVI or VISA common components must be provided with full,
@@ -1136,7 +956,7 @@ build. The Shared Component Management Working group chair shall
 determine the manner in which submitted shared component source code is
 maintained and made available to consortium members.
 
-# Procedures Used When Developing Linux Components for VISA
+## Procedures Used When Developing Linux Components for VISA
 
 The paragraphs in this section describe the procedures used to develop,
 distribute, and maintain the VISA Shared Components for Linux, whose
@@ -1146,22 +966,22 @@ The procedures are designed to give members the flexibility to support
 Linux distributions that are not directly supported by packages that IVI
 provides, while protecting the goal of vendor interoperability on Linux.
 
-## VISA Shared Components for Linux
+### VISA Shared Components for Linux
 
-### IVI Supported Packages
+#### IVI Supported Packages
 
 > IVI directly supports several VISA Shared Components for Linux
 > packages that target the most important Linux distributions for test
 > and measurement use. These are available on a members-only IVI
 > Foundation web page for members to access.  Members may redistribute
-> them with their VISA implementations or as needed to customers. 
+> them with their VISA implementations or as needed to customers.
 
-### Source Availability and Modifications 
+#### Source Availability and Modifications
 
-> VISA Shared Components for Linux are covered by the IVI license. 
+> VISA Shared Components for Linux are covered by the IVI license.
 >
 > They are available to all members – bearing in mind that our existing
-> packages should work quite broadly. 
+> packages should work quite broadly.
 >
 > If the IVI Foundation shared component packages do not support a Linux
 > distribution that a vendor would like to support, they may create a
@@ -1175,32 +995,32 @@ provides, while protecting the goal of vendor interoperability on Linux.
 >
 > Members must contribute any source changes to the IVI Foundation, with
 > the understanding that the source may be used by other members over
-> time. 
+> time.
 >
 > Once a member starts distributing a new shared components package,
 > they must contribute the package to the IVI Foundation, so that
 > additional members that choose to support that distribution will be
-> able to ship the same package. 
+> able to ship the same package.
 
-### Shared Component Support 
+#### Shared Component Support
 
-> All shared component support is handled by VISA vendors. 
+> All shared component support is handled by VISA vendors.
 
-## USBTMC driver 
+### USBTMC driver
 
 > The primary method of distributing the USBTMC driver is through the
 > Linux kernel.  Since the IVI Foundation source has been submitted to
 > the kernel and accepted, it is subject to the terms and conditions of
 > the GPL2 license. In addition, the driver or any collective works that
 > include the driver or that are distributed with the driver may be
-> subject to the GPL2 license. 
+> subject to the GPL2 license.
 >
 > The IVI Foundation has created a package for distributing the new
 > USBTMC code to Linux distributions that do not include the newer
 > version of the driver.  This package is available on the IVI
 > Foundation internal git repository.  If a vendor supports VISA on a
 > distribution that does not include the updated USBTMC kernel driver,
-> they may distribute the IVI USBTMC package. 
+> they may distribute the IVI USBTMC package.
 >
 > If the IVI-supplied distribution requires modifications to work on a
 > distribution not supported by the IVI package, it is possible to use
@@ -1219,7 +1039,7 @@ provides, while protecting the goal of vendor interoperability on Linux.
 > Linux.  The contents of new revisions of the IVI package will be
 > determined by the I/O working group.
 
-# Appendix A: Example: IVI Board of Directors E-Vote
+## Appendix A: Example: IVI Board of Directors E-Vote
 
 The following is an example of the e-mail used to conduct an IVI Board
 of Directors Vote.
@@ -1269,7 +1089,7 @@ Regards,
 
 Board of Directors Chairperson
 
-# Appendix B: Example: IVI Technical Committee E-Vote
+## Appendix B: Example: IVI Technical Committee E-Vote
 
 The following is a template of for e-mails used to conduct IVI Technical
 Committee E-Votes.
@@ -1325,18 +1145,18 @@ This appendix is for the convenience of working group chairpersons. It
 provides guidelines for process, clarification of deliverables, and
 draws attention to important IVI requirements that are easy to overlook.
 
-1.  Charter the work, clarifying the content of the additions/changes.
+1. Charter the work, clarifying the content of the additions/changes.
     This requires a 2/3 vote of the technical committee. At the same
     time establish a working group through an open invitation to the
     foundation.
 
-2.  Provide detailed documentation of the new functionality. Understand
+2. Provide detailed documentation of the new functionality. Understand
     and document the impact on the existing API. Evaluate coverage with
     respect to the functionality of common instruments of the class and
     avoid standardizing on obscure or proprietary functions. Work
     towards consensus amongst working group.
 
-3.  Draft the API (can be a free format description). Evaluate the user
+3. Draft the API (can be a free format description). Evaluate the user
     experience with the API by considering what actual client code would
     look like in both C and COM development environments. Document the
     behavior model for the functionality being added. Consider fit with
@@ -1344,39 +1164,39 @@ draws attention to important IVI requirements that are easy to overlook.
     base class. This would be a good time to solicit beyond the working
     group. Work towards consensus amongst working group.
 
-4.  Prototype the new API (actual implementation, may be partial in
+4. Prototype the new API (actual implementation, may be partial in
     cases where a fill implementation wouldn’t provide new insights
     about the design).
 
-5.  Update the specification. Accumulate the new information in a change
+5. Update the specification. Accumulate the new information in a change
     document. If the change document becomes ungainly, it may be
     appropriate to update the previous version of the specification
     tracking changes. In addition to the conventional documentation and
     the API, need to consider impact to:
 
-    1.  Any changes to the existing behavior model (unlikely)
+    1. Any changes to the existing behavior model (unlikely)
 
-    2.  Additional group names, or changes to existing groups as a
+    2. Additional group names, or changes to existing groups as a
         result of the additions.
 
-    3.  Impact of disabling unused extension groups
+    3. Impact of disabling unused extension groups
 
-    4.  C and COM hierarchies
+    4. C and COM hierarchies
 
-    5.  Update interchangeability checking (normally in an appendix)
+    5. Update interchangeability checking (normally in an appendix)
 
-    6.  Consider any “Specific Driver Development Guidelines” (normally
+    6. Consider any “Specific Driver Development Guidelines” (normally
         in an appendix)
 
-    7.  Error Codes (contact error coordinator per IVI 3.1 Section 5.12)
+    7. Error Codes (contact error coordinator per IVI 3.1 Section 5.12)
 
-    8.  As outlined on the architecture control section of the IVI web
+    8. As outlined on the architecture control section of the IVI web
         site
         (<ftp://www.ivifoundation.org/Member%20Login/ArchitectureControlDocuments/default.htm>)
         select any additional help context ID’s and updated GUIDs for
         the components.
 
-    9.  As outlined on the architecture control section of the IVI web
+    9. As outlined on the architecture control section of the IVI web
         site
         (<ftp://www.ivifoundation.org/Member%20Login/ArchitectureControlDocuments/default.htm>)
         select updated GUIDs for the components.
@@ -1390,10 +1210,10 @@ draws attention to important IVI requirements that are easy to overlook.
 > IVI templates to minimize the work when the specification is complete
 > and the documents are merged.
 
-6.  Review and update the deliverables required from class committees as
+6. Review and update the deliverables required from class committees as
     documented in Chapter 5 of this document.
 
-7.  Create new shared components for the specification. Include:
+7. Create new shared components for the specification. Include:
 
     - Signed PIA (contact Pacific Mindworks or Agilent technologies to
       get this signed)
@@ -1409,7 +1229,7 @@ draws attention to important IVI requirements that are easy to overlook.
     - .idl file with English help strings (to be included in base .idl
       file)
 
-8.  Once voted in, create the actual new specification, following the
+8. Once voted in, create the actual new specification, following the
     naming guidelines in IVI 3.12, make sure the website gets updated
     with the new specification and ensure that the shared components are
     evaluated by the shared components working group and incorporated
