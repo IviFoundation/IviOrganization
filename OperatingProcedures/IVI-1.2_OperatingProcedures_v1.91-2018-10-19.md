@@ -116,7 +116,7 @@ This document is intended for members of the IVI Foundation.
 
 ### References
 
-See [www.robertsrules.com](http://www.robertsrules.com) for Roberts Rules of Order.
+See <www.robertsrules.com> for Roberts Rules of Order.
 
 See <www.ivifoundation.org> for IVI Foundation by-laws
 
@@ -156,7 +156,7 @@ A quorum shall be established at each meeting. All voting is conducted with one 
 
 Sub-committees generally make decisions by consensus. If they are unable to reach a conclusion by consensus they should bring the issue to their parent committee.
 
-See section 3 of this document for details regarding how many members must be present to establish a quorum for various groups and business items and the majority necessary to pass a resolution.
+See [Quorum and General Voting Requirements](#quorum-and-general-voting-requirements) for details regarding how many members must be present to establish a quorum for various groups and business items and the majority necessary to pass a resolution.
 
 ### General practices
 
@@ -192,7 +192,7 @@ It may be appropriate to distribute short documents (one or two pages) at the me
 
 All meetings shall have minutes. It is recommended that the chairperson select someone other than him/herself to take the minutes. However, it is the chairperson’s responsibility to make sure the minutes are taken and fairly reflect the discussions at the meetings.
 
-Minutes should be based on a ***standard foundation template*** (see [www.ivifoundation.org](http://www.ivifoundation.org)) and should include:
+Minutes should be based on a ***standard foundation template*** (see [www.ivifoundation.org](https://www.ivifoundation.org)) and should include:
 
 - List of attendees
 
@@ -212,7 +212,7 @@ Minutes should be based on a ***standard foundation template*** (see [www.ivifou
 
 This section describes general voting requirements. In general, per the by-laws of the foundation, business is conducted in accordance with Robert’s Rules of Order (revised).
 
-Because the IVI Foundation is especially concerned about the maintenance of technical specifications, certain extraordinary rules apply to some resolutions as indicated in section 3.2.
+Because the IVI Foundation is especially concerned about the maintenance of technical specifications, certain extraordinary rules apply to some resolutions as indicated in section: [Necessary Majority to Pass Various Resolutions](#necessary-majority-to-pass-various-resolutions).
 
 ### Quorum
 
@@ -292,7 +292,7 @@ When the chairperson of a committee calls a vote electronically, the following s
 
 - Deadline for the response
 
-See appendixes A and B for sample e-mail messages.
+See appendixes A and B of this document for sample e-mail messages.
 
 #### Recording of Resolutions
 
@@ -340,19 +340,19 @@ Once the sub-committee has created the specification and is comfortable with its
 
 The following process shall be followed when adopting a specification:
 
-1. Initiation of work
+1. **Initiation of work**
 
     Work can either be initiated as the result of a member proposing an existing body of work, or through the technical committee resolving to create a new body of work. The IVI Foundation Technical Committee officially initiates new work by approving a charter for a working group. This resolution may only be passed with a 2/3 majority of the Technical Committee per section 5.5 of the IVI by-laws.
 
     When the work is initiated, anyone submitting technology, techniques, or approaches for the basis of all or part of the new specification is required to complete an IP disclosure, substantially equivalent to the example included in Appendix A of the IVI IP Policy.
 
-2. Creation of draft
+2. **Creation of draft**
 
    The working group conducts meetings as appropriate to prepare a draft. Note that this work is all conducted under the disclosure requirement of the IVI IP Policy. While the work is conducted, working group members are reminded of the IVI IP Policy and the requirement that participants disclose and IP they are aware of. This is done at the beginning of technical committee meetings.
 
    If the chairperson of the working group feels any members of the group have not had appropriate notification of the IP requirement (for instance because all working group meetings have taken place telephonically without a corresponding technical committee meeting), the working group chairperson shall issue a patent call by reading and explaining the patent call from Appendix C of the IVI IP Policy. This action should be duly noted in the minutes, along with any responses from the membership indicating any knowledge of relevant IP. Further, the chairperson shall report any indication of an IP issue to the Technical Committee chairperson.
 
-3. Request for Final Comment and IP Declaration
+3. **Request for Final Comment and IP Declaration**
 
    The chairperson of the Technical Committee shall submit the completed draft specification to the general membership. Any members reviewing the specification shall submit comments and errata to the working group chairperson.
 
@@ -360,23 +360,23 @@ The following process shall be followed when adopting a specification:
 
    The review period shall be at least 45 days.
 
-4. Response to inputs from membership review
+4. **Response to inputs from membership review**
 
    The working group then addresses the comments and within its discretion accepts or rejects each of them. Once the specification draft has been revised, the working group chairperson and the Technical Committee chairperson shall cooperate to determine whether a new review period is required, and if so repeat the process outlined above.
 
-5. Vote by Technical Committee and Additional IPR Declaration
+5. **Vote by Technical Committee and Additional IPR Declaration**
 
    If the Technical Committee Chairperson feels that changes to the draft are sufficient to warrant an additional IP declaration, or if any member requests an additional IP declaration, an IP declaration per Appendix B of the IP Policy may be required at this time.
 
    Once the specification is ready for vote, the Technical Committee chairperson submits the specification for approval by the technical committee. If an additional IPR declaration is required, the minimum time period is 30 days. If the additional IPR declaration is not required, the minimum time period shall be 6 full business days (for instance calling for the vote on Tuesday, then have full 6 days from Wednesday of one week through Wednesday of the following week, and votes are tallied on Thursday at the beginning of business).
 
-   The outcome of the vote is determined according to the voting procedures set forth in section 3.2 (Necessary Majority to Pass Various Resolutions) above for approving a new piece of work, including any requirements on quorums and voting eligibility. If there are any intellectual property licensing issues that relate to the specification, they are to be resolved, and the appropriate licenses obtained prior to the posting of the completed specification.
+   The outcome of the vote is determined according to the voting procedures set forth in [Necessary Majority to Pass Various Resolutions](#necessary-majority-to-pass-various-resolutions) above for approving a new piece of work, including any requirements on quorums and voting eligibility. If there are any intellectual property licensing issues that relate to the specification, they are to be resolved, and the appropriate licenses obtained prior to the posting of the completed specification.
 
-6. Collection of licenses
+6. **Collection of licenses**
 
    If a member is to license its IPR to the IVI Foundation, the appropriate **Generic License Agreement (With** **License Fee** or **No** **Licence Fee)** shall be obtained from the IVI Foundation offices and adapted to the specific IPR being granted and the license fees agreed upon.
 
-7. Vote by Board of Directors
+7. **Vote by Board of Directors**
 
    Per section 5.5 of the by-laws, an additional vote shall be conducted by the Board of Directors to pass the new specification. This vote requires a simple majority as do other resolutions acted on by the Board of Directors.
 
@@ -384,20 +384,18 @@ The following process shall be followed when adopting a specification:
 
 **Table 4‑1**, *Summary of Voting Requirements*, summarizes the voting requirements for various measures.
 
-|  |  |  |  |  |  |
+| **Process Step**  | **Description** | **Create a new specification or Working Group** | **Major Change** | **Minor Change** | **Editorial** |
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| **Table 4‑1** Summary of Voting Requirements |  |  |  |  |  |
-|  |  | **Create a new specification or Working Group** | **Major Change** | **Minor Change** | **Editorial** |
 | **Action Needed to Start Work** | **Build consensus to start work and identify participants** | Yes (During Technical Committee or WG Teleconference) | Yes (During Technical Committee or WG Teleconference) | Yes (During Technical Committee or WG Teleconference) | Yes (Only requires TC chair or current spec owner agreement) |
-|  | **Vote to start work or approve charter of WG** | 2/3 super-majority of TC however at Live Meetings must not have no votes **see note** | 2/3 super-majority of TC however at Live Meetings must not have no votes **see note** | N/A | N/A |
-|  | **IPR Declaration** | Required from company that submits new IP | Required from company that submits new IP | N/A | N/A |
+| \<cont> | **Vote to start work or approve charter of WG** | 2/3 super-majority of TC however at Live Meetings must not have no votes **see note** | 2/3 super-majority of TC however at Live Meetings must not have no votes **see note** | N/A | N/A |
+| \<cont> | **IPR Declaration** | Required from company that submits new IP | Required from company that submits new IP | N/A | N/A |
 | **Call for Final Review** | **Minimum Review Period** | 45 Days | 45 Days | 3 Weeks (or 45 Days if IPR Declaration Required) | 6 Business Days (Email List Server - Document Change & ask for Objections) |
-|  | **IPR Declaration** | 45 Days (overlaps with review period) | 45 Days (overlaps with review period) | 45 Days (IPR at TC Chairman's discretion, overlaps with review period) | N/A |
+| \<cont> | **IPR Declaration** | 45 Days (overlaps with review period) | 45 Days (overlaps with review period) | 45 Days (IPR at TC Chairman's discretion, overlaps with review period) | N/A |
 | **Final Vote** | **Votes Needed for Passage** | TC Majority **see note** | TC Majority **see note** | 2/3 super-majority of TC however at Live Meetings must not have no votes  **see note** | N/A |
-|  | **IPR Declaration** | 30 Days (At any member's request) | 30 Days (At any member's request) | 30 Days (At any member's request) | N/A |
-|  | **Document Action in Technical Committee Meeting Minutes** | Yes | Yes | Yes | Yes |
+| \<cont> | **IPR Declaration** | 30 Days (At any member's request) | 30 Days (At any member's request) | 30 Days (At any member's request) | N/A |
+| \<cont> | **Document Action in Technical Committee Meeting Minutes** | Yes | Yes | Yes | Yes |
 
-**NOTE:** See section 3.2 regarding special conditions for TC majority and super-majority requirements for electronic and live meetings.
+**NOTE:** See [Necessary Majority to Pass Various Resolutions](#necessary-majority-to-pass-various-resolutions) regarding special conditions for TC majority and super-majority requirements for electronic and live meetings.
 
 ## Required Deliverables from Class Committees
 
@@ -424,7 +422,7 @@ Error and warning numbers also need to be uniquely defined for each class. New e
 
 In order to complete a new class specification, the following need to be provided by the class sub-committee before the final vote is called for:
 
-> **Written Specification:** The written specification shall be a MicrosoftWord file based on the standard foundation boilerplate available inthe Operating Procedures section of the IVI Foundation web siteAssigning a Revision Number to a Specification
+> **Written Specification:** The written specification shall be a MicrosoftWord file based on the standard foundation boilerplate available inthe Operating Procedures section of the IVI Foundation web site Assigning a Revision Number to a Specification
 
 > **IDL Files:** The IDL files that describe the interface to the class fromCOM. These files are used by the shared components committee togenerate a type library. One file contains the interface definition,the other contains the corresponding help strings. *Note that thisfile shall be equivalent to the corresponding appendix in thespecification.*
 
@@ -555,7 +553,9 @@ If the driver supplier subsequently corrects the problem, it mayrequest that the
 
 ## Shared Component Management Process
 
-Processes for shared component review are determined by the Shared Component Management Working group chair. The processes support various needs including:
+Processes for Shared Component review and posting are determined by the chairs of the working groups responsible for those components.  Processes for the IVI driver shared components are determined by the chair of the Instrument Drivers working group.  Processes for the VISA Shared Components are determined by the chair of the IO working group.
+
+The processes support various needs including:
 
 - Bug fix process that require quick turn-around and deployment
 
@@ -563,9 +563,9 @@ Processes for shared component review are determined by the Shared Component Man
 
 In general, new or modified components are subjected to two reviews, one for the new or modified components and another for the revised installer that installs the new component.
 
-Shared components are archived by multiple companies to achieve reasonable security through redundancy.
+Shared component source and object is archived on the IVI Foundation repository.
 
-Once shared components have been fully reviewed, any necessary updates to the shared component installer are done with a minimum review period.
+Once shared components have been fully reviewed, any necessary updates to the shared component installer are done with a minimal review period.
 
 ### VISA Common Components
 
@@ -617,11 +617,11 @@ Members are encouraged to cooperate with the I/O working group onfuture changes
 
 ## Appendix A: Example: IVI Board of Directors E-Vote
 
-The following is an example of the e-mail used to conduct an IVI Board of Directors Vote.
+*The following is an example of the e-mail used to conduct an IVI Board of Directors Vote.*
 
 The IVI Technical Committee, following the process outlined in section 5.5a of our by-laws, has recommended the following resolution:
 
-\<text of resolution\>
+\<text of resolution>
 
 To vote, Directors merely need reply to this message before \<date\> and indicate either: in favor or opposed. If you object to voting on this topic via e-mail please reply by that same date explaining your objection. If there are 2 objections the e-mail vote will be nullified.
 
