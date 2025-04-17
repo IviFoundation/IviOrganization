@@ -31,7 +31,7 @@ This document contains:
 **NOTES:**
 
 - Several items indicate "Act for IVI", the point is that the authority level is intrinsic in the credential.  Typically, IVI is a customer and the credential only serves to identify and authorize IVI.
-- Several credentials include "designee" as possible backup.  These are less restricted than others and may be made available to trusted people working on IVI Foundation business.
+- Several credentials are listed as not being restricted.  These are less restricted than others and may be made available to trusted people working on IVI Foundation business.  They are not limited to the designated owner and backup, although the owner/backup are responsible for managing them as described below.
 - Credentials with a primary owner of the President may be utilized at the discretion of the IVI BoD
 - Credentials with a primary owner of the TC Chair may be utilized at the discretion of the IVI Technical Committee
 - Credentials with a primary owner of the Treasurer may be utilized at the discretion of the IVI BoD
