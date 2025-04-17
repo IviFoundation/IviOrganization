@@ -9,24 +9,24 @@ This document contains:
 
 ## Summary of IVI Credentials
 
-| Credential           |  IVI Owner/Backup    | Protected Actions                   | Process Notes |
+| Credential           |  IVI Owner/Backup    | Protected Actions                   | Restricted |
 | ----------           | ----------------     | -----------------                   | ------------- |
-| Bank Accounts        | Treasurer/President  | Establishing authorized IVI Signatures, Account owner |  |
-| Azure Dev Ops        | TC Chair/President   | Authorize users, manage account     |  |
-| Github               | TC Chair/President   | Authorize users, manage account     |  |
-| DigiCert             | President/TC Chair   | Purchase IVI certs, insert in vault |  |
-| Code signing Certs   | TC Chair/President   | Access IVI private keys, manage signing tools |  |
-| NuGet Logon          | TC Chair/President   | Identify packages as IviFoundation owned |  |
-| SharePoint admin     | President/TC Chair   | Authorize users, manage account     |  |
-| 1Password admin      | President/TC Chair   | Authorize users, manage account     |  |
-| IVI EIN (employer ID)| President/TC Chair   | Change entry in vault               |  |
-| OLD IVI website admin| President/TC Chair   | Act for IVI                         |  |
-| VTM Group admin      | President/TC Chair/designee   | Act for IVI                |  |
-| Microsoft Account    | President/TC Chair/designee   | Act for IVI                |  |
-| Gravitar (icons)     | President/TC Chair/designee   | Act for IVI                |  |
-| CPA Secure Portal    | President/TC Chair/designee   | Act for IVI                |  |
-| QuickBooks           | President/TC Chair/designee   | Act for IVI                |  |
-| Network Solutions    | President/TC Chair/designee   | Act for IVI                |  |
+| Bank Accounts        | Treasurer/President  | Establishing authorized IVI Signatures, Account owner | yes |
+| Azure Dev Ops        | TC Chair/President   | Authorize users, manage account     | yes |
+| Github               | TC Chair/President   | Authorize users, manage account     | yes |
+| DigiCert             | President/TC Chair   | Purchase IVI certs, insert in vault | yes |
+| Code signing Certs   | TC Chair/President   | Access IVI private keys, manage signing tools | yes |
+| NuGet Logon          | TC Chair/President   | Identify packages as IviFoundation owned | yes |
+| SharePoint admin     | President/TC Chair   | Authorize users, manage account     | yes |
+| 1Password admin      | President/TC Chair   | Authorize users, manage account     | yes |
+| IVI EIN (employer ID)| President/Treasurer  | Change entry in vault               | no |
+| OLD IVI website admin| President/TC Chair   | Act for IVI                         | no |
+| VTM Group admin      | President/TC Chair   | Act for IVI                         | no |
+| Microsoft Account    | President/TC Chair   | Act for IVI                         | no |
+| Gravitar (icons)     | President/TC Chair   | Act for IVI                         | no |
+| CPA Secure Portal    | President/Treasurer  | Act for IVI                         | no |
+| QuickBooks           | Treasurer/President  | Act for IVI                         | no |
+| Network Solutions    | President/TC Chair   | Act for IVI                         | no |
 
 **NOTES:**
 
@@ -39,7 +39,9 @@ This document contains:
 
 ## Delegating Authority
 
-All credentials have an identified owner and backup.  In general the backup is authorized to utilize the credential when the owner is not available.  If owners will be unavailable for more than 1 week, they should notify the backup, and possibly designate an additional backup.
+All credentials have an identified owner and backup.  In general the backup is authorized to utilize the credential as needed.  If owners will be unavailable for extended period, they may designate someone else to act on their behalf in their absence (and only in their absence).
+
+From time-to-time IVI may hire or appoint a temporarily-authorized-user to perform work on behalf of the foundation that requires one of restricted credentials. In that case at the discretion of the credential owner with approval from the backup, that temporarily-authorized-user can be authorized to use the credential for a fixed period of time.  After the time elapses the credential shall be changed so the temporarily-authorized-user no longer has access (probably requires generating new secrets).
 
 Only those credentials that indicate **_designee_** under owner/backup may be shared with someone other than an IVI officer.  These credentials are necessary for conducting various IVI business and do not require the degree of business controls as the others.
 
@@ -47,11 +49,11 @@ Only those credentials that indicate **_designee_** under owner/backup may be sh
 
 If possible, the username should be: _IviFoundation_
 
-The following are our preferences for credential type from more preferred to least:
+The following are our preferences for credential type from most preferred to least:
 
 - Use Passkey stored in 1Password vault if possible (this permits sharing between owner and designee) 
 - If a personalized second factor is required, sign up 2 users if possible - both should document 2nd factor in 1Password (email, phone, etc.)
-- Failing the above, prefer that the single owner be TC Chair, President, or Treasurer; also consider VTM as appropriate as the owner.  Document the second factor in 1Password.
+- Failing the above, prefer that the single owner be TC Chair, President, Secretary, or Treasurer; also consider VTM as appropriate as the owner.  Document the second factor in 1Password.
 
 ## 1Password Vaults
 
