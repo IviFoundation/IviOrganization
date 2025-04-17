@@ -1,6 +1,11 @@
 # IVI Credential Summary
 
-This document contains a summary list of the IVI Credentials and who should have access to them.
+This document contains:
+
+- A summary list of the IVI Credentials
+- Who the IVI Foundation grants access to the credentials
+- IVI Practices regarding using the IVI Password safe
+- Circumstances where credential owners should share credentials
 
 ## Summary of IVI Credentials
 
@@ -36,17 +41,17 @@ This document contains a summary list of the IVI Credentials and who should have
 
 All credentials have an identified owner and backup.  In general the backup is authorized to utilize the credential when the owner is not available.  If owners will be unavailable for more than 1 week, they should notify the backup, and possibly designate an additional backup.
 
-Only those credentials that indicate ***designee*** under owner/backup may be shared with someone other than an IVI officer.  These credentials are necessary for conducting various IVI business and do not require the degree of business controls as the others.
+Only those credentials that indicate **_designee_** under owner/backup may be shared with someone other than an IVI officer.  These credentials are necessary for conducting various IVI business and do not require the degree of business controls as the others.
 
 ## Credential Details
 
-If possible, the username should be: IviFoundation.
+If possible, the username should be: _IviFoundation_
 
-The following are our preferences for credential from best to worst:
+The following are our preferences for credential type from more preferred to least:
 
-- Use Passkey stored in 1Password vault if possible (anyone with 1Password access can use it) 
-- If 2FA required, sign up 2 users if possible - both should document 2nd factor in 1Password (email, phone, etc)
-- If cannot sign-up two user and no Passkey and 2FA required: prefer that the owner be TC Chair, President, or Treasurer; also consider VTM as appropriate as the owner.  Second factor documented.
+- Use Passkey stored in 1Password vault if possible (this permits sharing between owner and designee) 
+- If a personalized second factor is required, sign up 2 users if possible - both should document 2nd factor in 1Password (email, phone, etc.)
+- Failing the above, prefer that the single owner be TC Chair, President, or Treasurer; also consider VTM as appropriate as the owner.  Document the second factor in 1Password.
 
 ## 1Password Vaults
 
@@ -55,4 +60,4 @@ The credentials are placed into 1Password vaults.  The vaults are shared by the 
 - Executive Vault --- all credentials owned by President or TC Chair
 - Fiscal Vault -- all credentials owned by President and Treasurer
 - General Vault -- all other credentials.  These are owner by Pres/TC Chair and are released individually by an executive for use by someone.
-- Perhaps other vaults as needed (maybe we have a web vault with DNS registration, website, …?).  Especially for things that require less security.
+- Other vaults if none of the above categories work (for example we may need a web vault with DNS registration, website credentials, …?).  Especially useful for things that do not require restricted access.
