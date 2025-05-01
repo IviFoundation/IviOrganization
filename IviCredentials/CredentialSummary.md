@@ -69,4 +69,4 @@ The credentials are placed into 1Password vaults.  The vaults are shared by the 
 
 ## Updating Credentials
 
-Credentials should be updated annually.
+Credentials should be updated annually or when a new person is added with access to sensitive credentials.
