@@ -9,24 +9,24 @@ This document contains:
 
 ## Summary of IVI Credentials
 
-| Credential           |  IVI Owner/Backup    | Protected Actions                   | Restricted |
-| ----------           | ----------------     | -----------------                   | ------------- |
-| Bank Accounts        | Treasurer/President  | Establishing authorized IVI Signatures, Account owner | yes |
-| Azure Dev Ops        | TC Chair/President   | Authorize users, manage account     | yes |
-| Github               | TC Chair/President   | Authorize users, manage account     | yes |
-| DigiCert             | President/TC Chair   | Purchase IVI certs, insert in vault | yes |
-| Code signing Certs   | TC Chair/President   | Access IVI private keys, manage signing tools | yes |
-| NuGet Logon          | TC Chair/President   | Identify packages as IviFoundation owned | yes |
-| SharePoint admin     | President/TC Chair   | Authorize users, manage account     | yes |
-| 1Password admin      | President/TC Chair   | Authorize users, manage account     | yes |
-| IVI EIN (employer ID)| President/Treasurer  | Change entry in vault               | no |
-| OLD IVI website admin| President/TC Chair   | Act for IVI                         | no |
-| VTM Group admin      | President/TC Chair   | Act for IVI                         | no |
-| Microsoft Account    | President/TC Chair   | Act for IVI                         | no |
-| Gravitar (icons)     | President/TC Chair   | Act for IVI                         | no |
-| CPA Secure Portal    | President/Treasurer  | Act for IVI                         | no |
-| QuickBooks           | Treasurer/President  | Act for IVI                         | no |
-| Network Solutions    | President/TC Chair   | Act for IVI                         | no |
+| Credential           |  IVI Owner/Backup   | Administrator  | Protected Actions                   | Restricted |
+| ----------           | ----------------    | -------------  | -----------------                   | ------------- |
+| Bank Accounts        | Treasurer/President |     VTM        | Establishing authorized IVI Signatures, Account owner | yes |
+| Azure Dev Ops        | TC Chair/President  |                | Authorize users, manage account     | yes |
+| Github               | TC Chair/President  |                | Authorize users, manage account     | yes |
+| DigiCert             | President/TC Chair  |                | Purchase IVI certs, insert in vault | yes |
+| Code signing Certs   | TC Chair/President  |                | Access IVI private keys, manage signing tools | yes |
+| NuGet Logon          | TC Chair/President  |                | Identify packages as IviFoundation owned | yes |
+| SharePoint admin     | President/TC Chair  |                | Authorize users, manage account     | yes |
+| 1Password admin      | President/TC Chair  |                | Authorize users, manage account     | yes |
+| IVI EIN (employer ID)| President/Treasurer |     <none>     | Change entry in vault               | no |
+| OLD IVI website admin| President/TC Chair  |                | Act for IVI                         | no |
+| VTM Group admin      | President/TC Chair  |                | Act for IVI                         | no |
+| Microsoft Account    | President/TC Chair  |                | Act for IVI                         | no |
+| Gravitar (icons)     | President/TC Chair  |                | Act for IVI                         | no |
+| CPA Secure Portal    | President/Treasurer |                | Act for IVI                         | no |
+| QuickBooks           | Treasurer/President |                | Act for IVI                         | no |
+| Network Solutions    | President/TC Chair  |                | Act for IVI                         | no |
 
 **NOTES:**
 
@@ -36,6 +36,7 @@ This document contains:
 - Credentials with a primary owner of the TC Chair may be utilized at the discretion of the IVI Technical Committee
 - Credentials with a primary owner of the Treasurer may be utilized at the discretion of the IVI BoD
 - Several credentials are used to _authorize_ other users.  For example, the SharePoint credentials are used to specify the privilege level of other users, up to and including authorizing full administrative privileges.  In these cases, the IVI processes (such as the Operating Procedures) dictate how/who/when a user is authorized.  The credentials identified here are those that represent the IVI Foundation and are the ultimate authority to authorize/deauthorize appropriate users based on documented IVI Processes.
+- The administrator (if listed) has access to the credentials and acts on behalf of the owner for IVI.  They are not permitted to share credentials with others.
 
 ## Delegating Authority
 
