@@ -55,7 +55,7 @@ No investigation has been made of common law trademark rights in any work.
     - [Adopting a New Technical Specification](#adopting-a-new-technical-specification)
     - [Summary of Voting Requirements](#summary-of-voting-requirements)
   - [Required Deliverables from Class Committees](#required-deliverables-from-class-committees)
-    - [Creating New Class Specifications](#creating-new-class-specifications)
+    - [Creating New Instrument Class Specifications](#creating-new-instrument-class-specifications)
     - [Deliverables](#deliverables)
   - [Assigning a Revision Number to a Specification](#assigning-a-revision-number-to-a-specification)
     - [First Time Approval of a Specification](#first-time-approval-of-a-specification)
@@ -78,7 +78,7 @@ No investigation has been made of common law trademark rights in any work.
     - [USBTMC driver](#usbtmc-driver)
   - [Appendix A: Example: IVI Board of Directors E-Vote](#appendix-a-example-ivi-board-of-directors-e-vote)
   - [Appendix B: Example: IVI Technical Committee E-Vote](#appendix-b-example-ivi-technical-committee-e-vote)
-  - [Appendix C: Extending Class Specifications](#appendix-c-extending-class-specifications)
+  - [Appendix C: Extending Instrument Class Specifications](#appendix-c-extending-instrument-class-specifications)
 
 ## IVI Operating Procedures Revision History Preceding Import to Markdown
 
@@ -214,7 +214,7 @@ Because the IVI Foundation is especially concerned about the maintenance of tech
 
 The following table describes the criteria needed for a quorum at various IVI Foundation meetings. *Note that this only applies to live meetings*. *Live Meetings* include both face-face meetings and meetings conducted telephonically.
 
-| Table 3‑1. Live Meeting Quorum Criterion |  |
+| Live Meeting Quorum Criterion |  |
 |----|----|
 | **Body Taking Action** | **Quorum Requirements** |
 | Technical Committee | *25% of those entitled to vote or 2, whichever is more* |
@@ -243,6 +243,8 @@ The following table describes the criteria needed for a vote to pass various typ
 Note that for resolutions that require 2/3 of those present, if 2/3 is a non-integral number that the quotient is rounded up.  For instance, if 30 (or 29 or 28) members are present and 20 vote in favor of a resolution it passes.
 
 Note that for resolutions that require >50% of those present, if 1/2 is a non-integral number that the quotient is rounded up. For instance if 30 (or 31) members are present a minimum of 16 votes is necessary to pass the resolution.
+
+Note that the requirement of permitting a single "no vote" to block certain Technical Committee resolutions is intended to permit those that disagree with those resolutions to have an opportunity to express their views during a Live meeting, and possibly persuade others.
 
 ### Conducting Votes Electronically
 
@@ -314,9 +316,9 @@ The member may make their proposal to the IVI Foundation Technical Committee in 
 
 The submission shall be adequately discussed at a Technical Committee meeting or by email communication for a period set by the Technical Committee chairperson but not to be less than 2 weeks.
 
-Once the discussion is exhausted, the Technical Committee shall vote whether to proceed with the new technology process. If approved, the submitting member must then complete the **IVI Foundation Submission of Technology Form** available from the IVI Foundation’s website, stating what intellectual property relating to the technology they own and indicating their willingness to license that technology to the IVI Foundation, including sub-licensing rights, on either a fee-free basis or under reasonable terms.
+Once the discussion is exhausted, the Technical Committee shall vote whether to proceed with the new technology process. If approved, the submitting member must then complete the **IVI Foundation Submission of Technology Form** available from the IVI Foundation’s *IPR Policy*, stating what intellectual property relating to the technology they own and indicating their willingness to license that technology to the IVI Foundation, including sub-licensing rights, on either a fee-free basis or under reasonable terms.
 
-Although not officially required to do so, until actually voting on the specification, other members of the IVI Foundation should, in accordance with the IP Policy, notify the foundation of any IP related to the submitted technology as early in the process as possible.
+Although not officially required to do so, until actually voting on the specification, other members of the IVI Foundation should, in accordance with the IPR Policy, notify the foundation of any IP related to the submitted technology as early in the process as possible.
 
 Once the technical committee has received the IVI Foundation Submission of Technology Form from the submitting member, it shall vote whether to initiate the new technical work (this vote requires a 2/3 super-majority).
 
@@ -362,7 +364,7 @@ The following process shall be followed when adopting a specification:
 
 5. **Vote by Technical Committee and Additional IPR Declaration**
 
-   If the Technical Committee Chairperson feels that changes to the draft are sufficient to warrant an additional IP declaration, or if any member requests an additional IP declaration, an IP declaration per Appendix B of the IP Policy may be required at this time.
+   If the Technical Committee Chairperson feels that changes to the draft are sufficient to warrant an additional IPR declaration, or if any member requests an additional IPR declaration, an IPR declaration per Appendix B of the IPR Policy may be required at this time.
 
    Once the specification is ready for vote, the Technical Committee chairperson submits the specification for approval by the technical committee. If an additional IPR declaration is required, the minimum time period is 30 days. If the additional IPR declaration is not required, the minimum time period shall be 6 full business days (for instance calling for the vote on Tuesday, then have full 6 days from Wednesday of one week through Wednesday of the following week, and votes are tallied on Thursday at the beginning of business).
 
@@ -378,7 +380,7 @@ The following process shall be followed when adopting a specification:
 
 ### Summary of Voting Requirements
 
-**Table 4‑1**, *Summary of Voting Requirements*, summarizes the voting requirements for various measures.
+The following table summarizes the voting requirements for various measures:
 
 | **Process Step**  | **Description** | **Create a new specification or Working Group** | **Major Change** | **Minor Change** | **Editorial** |
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -395,11 +397,13 @@ The following process shall be followed when adopting a specification:
 
 ## Required Deliverables from Class Committees
 
+***As of 2025-06-23 the procedures below for new instrument class specifications need to be updated since presumably a new class specification would need to carefully reconsider deliverables, and process to account for current IVI-supported languages.***
+
 This section has specific instructions and deliverables for class committees.
 
-### Creating New Class Specifications
+### Creating New Instrument Class Specifications
 
-When creating a new class specification, the class will need to
+When creating a new instrument class specification, the class will need to
 establish:
 
 - COM GUIDs
@@ -408,17 +412,17 @@ establish:
 
 - Error Numbers
 
-COM GUIDs have been pre-allocated for all IVI classes so that IVI components will show up consecutively in the registry. New classes need to acquire GUIDs by making entries in the master GUID list on the IVI web site. This is currently located in the Architecture Control Section of the web site in the Members login area.
+COM GUIDs have been pre-allocated for all IVI instrument classes so that IVI components will show up consecutively in the registry. New classes need to acquire GUIDs by making entries in the master GUID list on the IVI web site. This is currently located in the Architecture Control Section of the web site in the Members login area.
 
-New classes also need to define help context IDs that do not overlap with existing classes. This is done by assigning each class a base ID, then all the IDs in the class are taken sequentially above this base. The control document is on the IVI web site in the Architecture Control Section in the Members login area. New classes should take the next available base address after the highest address currently defined and round up to the nearest multiple of 100.
+New instrument classes also need to define help context IDs that do not overlap with existing classes. This is done by assigning each class a base ID, then all the IDs in the class are taken sequentially above this base. The control document is on the IVI web site in the Architecture Control Section in the Members login area. New classes should take the next available base address after the highest address currently defined and round up to the nearest multiple of 100.
 
-Error and warning numbers also need to be uniquely defined for each class. New error and warning numbers are defined by incrementing sequentially from a base number assigned to the class. IVI-COM and IVI-C have separate error and warning bases. The error and warning bases for IVI-COM and IVI-C are define in IVI 3.1 section 5.6. New classes need to update this table with the four new base values.
+Error and warning numbers also need to be uniquely defined for each instrument class. New error and warning numbers are defined by incrementing sequentially from a base number assigned to the class. IVI-COM and IVI-C have separate error and warning bases. The error and warning bases for IVI-COM and IVI-C are define in IVI 3.1 section 5.6. New classes need to update this table with the four new base values.
 
 ### Deliverables
 
-In order to complete a new class specification, the following need to be provided by the class sub-committee before the final vote is called for:
+In order to complete a new instrument class specification, the following need to be provided by the class sub-committee before the final vote is called for:
 
-> **Written Specification:** The written specification shall be a MicrosoftWord file based on the standard foundation boilerplate available in the Operating Procedures section of the IVI Foundation web site Assigning a Revision Number to a Specification
+> **Written Specification:** The written specification shall be a Microsoft Word file based on the standard foundation boilerplate available in the Operating Procedures section of the IVI Foundation web site Assigning a Revision Number to a Specification
 
 > **IDL Files:** The IDL files that describe the interface to the class from COM. These files are used by the shared components committee to generate a type library. One file contains the interface definition,the other contains the corresponding help strings. *Note that this file shall be equivalent to the corresponding appendix in the specification.*
 
@@ -515,9 +519,9 @@ When the IVI Foundation receives a complaint regarding a driver, it will immedia
 
 This process is invoked when there is a dispute regarding the efficacy of a complaint regarding the compliance of an IVI driver. It is presumed at the outset of this process that a written complaint as described above is available, as well as a written document from the provider of the driver stating why it disputes the complaint.
 
-In order to resolve the complaint, a Compliance Review Committee will be created, in accordance with IVI Foundation by-laws, to review this complaint. The Compliance Review Committee is a subcommittee of theIVI Technical Committee. The Technical Committee chairman is responsible for creating the Compliance Review Committee and ensuring that all the membership of the Technical Committee has an opportunity to volunteer for the Compliance Review Committee. The TechnicalCommittee chairman will initiate this process as soon as is convenient after being notified of the dispute. The membership will be made up of volunteer members from the Technical Committee; they shall elect an impartial chair from their membership. Note that the committee may include both the driver supplier and/or the person or company that initiated the complaint regarding the driver in question.
+In order to resolve the complaint, a Compliance Review Committee will be created, in accordance with IVI Foundation by-laws, to review this complaint. The Compliance Review Committee is a subcommittee of the IVI Technical Committee. The Technical Committee chairman is responsible for creating the Compliance Review Committee and ensuring that all the membership of the Technical Committee has an opportunity to volunteer for the Compliance Review Committee. The Technical Committee chairman will initiate this process as soon as is convenient after being notified of the dispute. The membership will be made up of volunteer members from the Technical Committee; they shall elect an impartial chair from their membership. Note that the committee may include both the driver supplier and/or the person or company that initiated the complaint regarding the driver in question.
 
-The Compliance Review Committee will review the complaint and response. They will then discuss the problem either in person or via phone meeting with the driver supplier. The Compliance ReviewCommittee will then formulate an authoritative opinion regarding the fact of the matter. The committee shall create a document either stating that the driver appears to be in compliance or stating the specific problems with the driver, including references to the appropriate IVI specifications as why the driver in question does not comply. This will be sent to both the driver supplier and the person or company that initiated the complaint.
+The Compliance Review Committee will review the complaint and response. They will then discuss the problem either in person or via phone meeting with the driver supplier. The Compliance Review Committee will then formulate an authoritative opinion regarding the fact of the matter. The committee shall create a document either stating that the driver appears to be in compliance or stating the specific problems with the driver, including references to the appropriate IVI specifications as why the driver in question does not comply. This will be sent to both the driver supplier and the person or company that initiated the complaint.
 
 If the flaw in the driver is found to be based on a lack of clarity in the specification then the Compliance Review Committee will forward the matter to the Technical Committee and the Technical Committee shall initiate a request to update the specification using defined operating procedures for submitting specification changes.
 
@@ -531,7 +535,7 @@ If the driver supplier is not satisfied with the written conclusions of the Comp
 
 If the company producing the driver fails to remedy the problem in the prescribed period, the IVI Board of Directors shall take the following actions:
 
-1. It shall pass a resolution, based on a standard IVI Foundation form, indicating that the driver in not in compliance and the driver supplier has failed to correct it.
+1. It shall pass a resolution, based on a standard IVI Foundation form, indicating that the driver is not in compliance and the driver supplier has failed to correct it.
 
 2. It shall send a letter based on a standard IVI Foundation form to the provider of the driver stating that the provider is not allowed to use any IVI Foundation trademarks in reference to the driver in question.
 
@@ -563,7 +567,7 @@ Once shared components have been fully reviewed, any necessary updates to the sh
 
 ### VISA Common Components
 
-The VISA-COM common components are managed using the same process as used by the other IVI shared components.
+The VISA common components are managed using the same process as used by the other IVI shared components.
 
 ### Shared Components Source Code Availability
 
@@ -676,7 +680,9 @@ Regards,
 
 Technical Committee Chairperson
 
-## Appendix C: Extending Class Specifications
+## Appendix C: Extending Instrument Class Specifications
+
+***Note as of 2025-06-23, and noted in [creating new instrument class specifications](#creating-new-instrument-class-specifications), future work on instrument classes will require parallel updates to these procedures and templates.***
 
 This appendix is for the convenience of working group chairpersons. It provides guidelines for process, clarification of deliverables, and draws attention to important IVI requirements that are easy to overlook.
 
