@@ -601,7 +601,7 @@ All shared component support is handled by VISA vendors.
 
 ### USBTMC driver
 
-The USBTMC driver is distributed with the Linux kernel.  Since the IVI Foundation contributions to the USBTMC driver have been submitted to the Linux kernel, they are subject to the terms and conditions of the GPL2 license. In addition, the driver or any collective works that include the driver or that are distributed with the driver may be subject to the GPL2 license.  Members are encouraged to cooperate with the I/O Working Group on future changes to the driver to make sure that the driver continues to meet the objective of providing a multi-vendor USBTMC solution on Linux.
+The USBTMC driver is distributed with the Linux kernel.  Since the IVI Foundation contributions to the USBTMC driver have been submitted to the Linux kernel, they are subject to the terms and conditions of the GPL-2.0 license. In addition, the driver or any collective works that include the driver or that are distributed with the driver may be subject to the GPL-2.0 license.  Members are encouraged to cooperate with the I/O Working Group on future changes to the driver to make sure that the driver continues to meet the objective of providing a multi-vendor USBTMC solution on Linux.
 
 ## Appendix A: Example: IVI Board of Directors E-Vote
 
