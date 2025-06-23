@@ -575,7 +575,7 @@ Any shared components contributed to the Foundation for inclusion in any of the 
 
 ## Procedures Used When Developing Linux Components for VISA
 
-The paragraphs in this section describe the procedures used to develop, distribute, and maintain the VISA Shared Components for Linux, whose source is owned by the IVI Foundation, and the USBTMC Linux kernel driver, whose source code is contributed to an open source organization. The procedures are designed to give members the flexibility to support Linux distributions that are not directly supported by packages that IVI provides, while protecting the goal of vendor interoperability on Linux.
+The paragraphs in this section describe the procedures used to develop, distribute, and maintain the VISA Shared Components for Linux, whose source is owned by the IVI Foundation, and the USBTMC Linux kernel driver, the source code of which is part of the Linux kernel. The procedures are designed to give members the flexibility to support Linux distributions that are not directly supported by packages that IVI provides, while protecting the goal of vendor interoperability on Linux.
 
 ### VISA Shared Components for Linux
 
@@ -601,15 +601,7 @@ All shared component support is handled by VISA vendors.
 
 ### USBTMC driver
 
-The primary method of distributing the USBTMC driver is through the Linux kernel.  Since the IVI Foundation source has been submitted to the kernel and accepted, it is subject to the terms and conditions of the GPL2 license. In addition, the driver or any collective works that include the driver or that are distributed with the driver may be subject to the GPL2 license.
-
-The IVI Foundation has created a package for distributing the new USBTMC code to Linux distributions that do not include the newer version of the driver.  This package is available on the IVI Foundation internal git repository.  If a vendor supports VISA on a distribution that does not include the updated USBTMC kernel driver,they may distribute the IVI USBTMC package.
-
-If the IVI-supplied distribution requires modifications to work on a distribution not supported by the IVI package, it is possible to use the kernel source code to modify the driver and create their own package. The IVI Foundation strongly discourages this.
-
-When modifying kernel source code, members should make sure that the driver source they are working with includes the latest patches to the kernel driver. Members should be aware that due to GPL2 license restrictions, any modifications to the driver that are distributed to customers must be made available publicly.
-
-Members are encouraged to cooperate with the I/O working group on future changes to the driver to make sure that the driver continues to meet the objective of providing a multi-vendor USBTMC solution onLinux.  The contents of new revisions of the IVI package will be determined by the I/O working group.
+The USBTMC driver is distributed with the Linux kernel.  Since the IVI Foundation contributions to the USBTMC driver have been submitted to the Linux kernel, they are subject to the terms and conditions of the GPL-2.0 license. In addition, the driver or any collective works that include the driver or that are distributed with the driver may be subject to the GPL-2.0 license.  Members are encouraged to cooperate with the I/O Working Group on future changes to the driver to make sure that the driver continues to meet the objective of providing a multi-vendor USBTMC solution on Linux.
 
 ## Appendix A: Example: IVI Board of Directors E-Vote
 
