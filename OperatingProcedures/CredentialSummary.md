@@ -40,11 +40,9 @@ This document contains:
 
 ## Delegating Authority
 
-All credentials have an identified owner and backup.  In general the backup is authorized to utilize the credential as needed.  If owners will be unavailable for extended period, they may designate someone else to act on their behalf in their absence (and only in their absence).
+All credentials have an identified owner and backup.  In general the backup is authorized to utilize the credential as needed.  If owners will be unavailable for extended period, they may designate someone from an IVI member company or the IVI management company to act on their behalf in their absence (and only in their absence)
 
 From time-to-time IVI may hire or appoint a temporarily-authorized-user to perform work on behalf of the foundation that requires one of restricted credentials. In that case at the discretion of the credential owner with approval from the backup, that temporarily-authorized-user can be authorized to use the credential for a fixed period of time.  After the time elapses the credential shall be changed so the temporarily-authorized-user no longer has access (probably requires generating new secrets).
-
-Only those credentials that indicate **_designee_** under owner/backup may be shared with someone other than an IVI officer.  These credentials are necessary for conducting various IVI business and do not require the degree of business controls as the others.
 
 ## Credential Details
 
