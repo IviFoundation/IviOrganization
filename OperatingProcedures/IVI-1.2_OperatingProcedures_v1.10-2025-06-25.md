@@ -2,8 +2,7 @@
 
 | Version Number | Date of Version    | Version Notes                  |
 |--------------- | ---------------    | -------------                  |
-| 1.91           |  February 2025  | Initial Import of Specification to GitHub/Markdown  |
-| 1.92           | March 2025      | General correction of flaws in previous draft |
+| 1.10           |  June 2025         | Initial Import of Specification to GitHub/Markdown, with updates and corrections  |
 
 ## Authorship
 
@@ -97,6 +96,7 @@ This section is an overview of the revision history of the IVI Operating Procedu
 | Revision 1.6 | June 9, 2010 | Updated for .NET |
 | Revision 1.8 | June 6, 2016 | Added section 9.2 describing the requirement that shared components be supplied to the Foundation with full source code. |
 | Revision 1.9 | October 19, 2018 | Added section on Procedures Used When Developing Linux Components for VISA |
+| Revision 1.10 |  June 25, 2025  | Initial Import of Specification to GitHub/Markdown, with updates and corrections  |
 
 ## Overview of the IVI Operating Procedures
 
