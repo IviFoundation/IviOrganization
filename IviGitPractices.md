@@ -71,9 +71,16 @@ We anticipate the following steps:
 
   After the TC approves the work, the working group chair performs the final merge.
 
-  In some cases the final merge will require that dates (version numbers?) be updated.  The working group chair is authorized to perform these editorial changes to ensure the new work fits with other IVI documents/code.
+  In some cases the final merge will require that dates (version numbers?) be updated.  The working group chair is authorized to perform these and other editorial changes to ensure the new work fits with other IVI documents/code.  Some things the Working Group Chair should remember to do:
 
-  For code, there may be additional DevOps to attend to at this point.
+  - Make sure the revision table and revision number within the document are up-to-date.
+  - Ensure the Table-Of-Contents of the document is up-to-date.
+  - Ensure the README.md in the git repo is up-to-date and includes the document and its version.  This is especially important since this README.md file is basically the documentation for the repo for casual reviewers.
+  - If the document has the date and revision coded into it (not a good practice, but some of our documents have this), update them appropriately.
+  - Ensure that the IVI website is updated appropriately with the new document.
+  - Ensure an appropriate announcement is created and posted to the IVI website.
+
+  For code, there may be additional DevOps and posting to attend to at this point.
 
 ## Additional Considerations for Code Development
 
