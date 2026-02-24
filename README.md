@@ -14,6 +14,7 @@ The following IVI documents are includes in this repository:
 | ---------  | ---- |
 | [IviGitPractices](https://github.com/IviFoundation/IviOrganization/blob/main/IviGitPractices.md)| A living document intended to capture recommendation to working groups on the use of git.  Although still under development, it provides a starting point for users. |
 | [OperatingProcedures](https://github.com/IviFoundation/IviOrganization/blob/main/OperatingProcedures/IVI-1.2_OperatingProcedures_v1.10-2025-06-25.md)| This is the official operating procedures of the IVI Foundation.  In addition to the formal Operating Procedures some ancillary docuhmentation is here as well. |
+| [Credential Summary](https://github.com/IviFoundation/IviOrganization/blob/main/OperatingProcedures/CredentialSummary.md) | Brief summary of primary consortium credentials, and their management. |
 
 See the [IVI Foundation Website](https://www.ivifoundation.org) for more information on the foundation and these standards.
 
