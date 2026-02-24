@@ -77,6 +77,8 @@ We anticipate the following steps:
   - Ensure the Table-Of-Contents of the document is up-to-date.
   - Ensure the README.md in the git repo is up-to-date and includes the document and its version.  This is especially important since this README.md file is basically the documentation for the repo for casual reviewers.
   - If the document has the date and revision coded into it (not a good practice, but some of our documents have this), update them appropriately.
+  - Create the appropriate git tag as described in [Instrument Driver Repo Organization](https://github.com/IviFoundation/IviDrivers/blob/main/Documentation/InstrumentDriverSpecsRepoOrg.md)
+  - Create a final PDF file for the spec and add to repository
   - Ensure that the IVI website is updated appropriately with the new document.
   - Ensure an appropriate announcement is created and posted to the IVI website.
 
