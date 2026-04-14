@@ -2,19 +2,21 @@
 
 At the time of this writing, the IVI Website is a GitHub pages Jekyll website using the *just-the-docs* theme.
 
+See the adjacent documentation for details on steps to make spec and Shared Component updates.
+
 ## Understanding the website
 
 The website is pretty much a standard GitHub pages Jekyll site. As such, this documentation should tell you what you need:
 
-    [Creating a GitHub Patges site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+- GitHub document on [Creating a GitHub Pages site with Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 
-    Excellent [Jekyll Documentation](https://jekyllrb.com/docs/) - which is what website authors mostly interact with
+- Excellent [Jekyll Documentation](https://jekyllrb.com/docs/) - which is what website authors mostly interact with
 
-    [Constraints imposed by GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+- GitHub document regarding [constraints imposed by GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
-    [Jekyll on GitHub Pages](https://jekyllrb.com/docs/github-pages/)
+- Jekyll document regarding [Jekyll on GitHub Pages](https://jekyllrb.com/docs/github-pages/)
 
-    [Using the just-the-docs theme](https://just-the-docs.com/)
+- Documentation of the Jekyll theme used by IVI (at the time of this writing): [Using the just-the-docs theme](https://just-the-docs.com/)
 
 ## Relationship with IVI GitHub Repos and SharePoint
 
